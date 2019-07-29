@@ -1,0 +1,12 @@
+<component name="libraryTable">
+  <library name="Gradle: com.thisobeystudio.customviewpager:customviewpagerkotlin:0.0.1-beta@aar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/1e3a4e1de568fb3fb42280c876942939/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/1e3a4e1de568fb3fb42280c876942939/res" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.thisobeystudio.customviewpager/customviewpagerkotlin/0.0.1-beta/9adb594d91f2174a3382fc17f72573ad3ce351fd/customviewpagerkotlin-0.0.1-beta-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>
