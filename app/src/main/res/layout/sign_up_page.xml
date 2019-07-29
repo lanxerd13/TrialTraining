@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:app="http://schemas.android.com/apk/res-auto"
+                xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+                android:layout_height="match_parent">
+    <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" app:srcCompat="@drawable/test2"
+            android:text="test2"
+            android:scaleType="centerCrop"
+            android:id="@+id/imageViewSignUp"
+            android:layout_alignParentStart="true" android:layout_alignParentTop="true"/>
+
+    <Button
+            android:text="Button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" android:layout_alignParentStart="true"
+            android:layout_marginStart="249dp" android:layout_alignParentLeft="true"
+            android:layout_alignParentBottom="true" android:id="@+id/button8" android:layout_marginBottom="460dp"
+            android:layout_marginLeft="249dp" android:onClick="mainActivity"/>
+    <TextView
+            android:text="No.Handphone :"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" android:layout_alignParentStart="true"
+            android:layout_marginStart="64dp" android:layout_alignParentLeft="true"
+            android:layout_alignParentBottom="true" android:id="@+id/textView4" android:layout_marginBottom="303dp"
+            android:layout_marginLeft="64dp"/>
+    <Spinner
+            android:id="@+id/countrySpinner"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_marginStart="52dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginLeft="52dp"
+            android:layout_marginBottom="254dp"
+            android:textAlignment="gravity"
+            android:gravity="right"
+
+    />
+    <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="48dp"
+            android:ems="10"
+            android:id="@+id/handphoneNo"
+            android:layout_marginStart="-5dp"
+            android:layout_alignParentBottom="true"
+            android:layout_marginLeft="-5dp"
+            android:layout_marginBottom="249dp"
+            android:layout_toEndOf="@+id/countrySpinner"
+            android:layout_toRightOf="@+id/countrySpinner"
+            android:textCursorDrawable="@null"
+            android:backgroundTint="@color/colorPrimaryDark"
+            android:singleLine="true"/>
+
+    <Button
+            android:text="Sign Up"
+            android:layout_width="299dp"
+            android:layout_height="wrap_content"
+            android:textSize="24sp" android:onClick="signUp"
+            android:gravity="center" android:layout_centerHorizontal="true" android:layout_alignParentBottom="true"
+            android:layout_marginBottom="65dp"/>
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_marginStart="109dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentBottom="true" android:id="@+id/errorMessage" android:layout_marginBottom="240dp"
+            android:layout_marginLeft="109dp" android:textColor="@color/colorAccent"/>
+</RelativeLayout>

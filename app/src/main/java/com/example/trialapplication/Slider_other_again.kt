@@ -4,6 +4,7 @@ import android.os.Bundle
 import android.support.v4.content.ContextCompat
 import android.support.v4.view.ViewPager
 import android.support.v7.app.AppCompatActivity
+import android.util.Log
 import android.view.View
 import android.widget.ImageView
 import android.widget.LinearLayout
@@ -27,6 +28,8 @@ class Slider_other_again : AppCompatActivity() {
         val viewPagerAdapter = ViewPagerAdapterForSliderOtherAgain(this)
 
         viewPager?.adapter = viewPagerAdapter
+        Log.i("test","view page size $viewPagerAdapter")
+        Log.i("test","view page size ${viewPager!!.getCurrentItem()}")
 
         dotscount = viewPagerAdapter.count
         dots = arrayOfNulls<ImageView>(dotscount)

@@ -47,6 +47,9 @@
         <activity
             android:name="com.example.trialapplication.SliderOwn"
             android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="com.example.trialapplication.SignUp"
+            android:theme="@style/AppTheme.NoActionBar" />
     </application>
 
 </manifest>

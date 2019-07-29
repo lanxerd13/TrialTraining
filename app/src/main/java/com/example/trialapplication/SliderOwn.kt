@@ -1,5 +1,6 @@
 package com.example.trialapplication
 
+import android.content.Intent
 import android.os.Bundle
 import android.support.v4.app.Fragment
 import android.support.v4.app.FragmentManager
@@ -45,11 +46,11 @@ class SliderOwn : AppCompatActivity() {
         fragments.add(ContentFragment.newInstance("image3"))
         fragments.add(ContentFragment.newInstance("i4808001"))
         fragments.add(ContentFragment.newInstance("i5409601"))
-        Log.i("test","fragment size ${fragments.size}")
-        Log.i("test","fragment size ${fragments.size*100}")
-        Log.i("test","fragment size ${fragments.size*100-1}")
-        Log.i("test","fragment size ${(fragments.size*100-1)%fragments.size}")
-        Log.i("test","fragment size ${(fragments.size*100)%fragments.size}")
+//        Log.i("test","fragment size ${fragments.size}")
+//        Log.i("test","fragment size ${fragments.size*100}")
+//        Log.i("test","fragment size ${fragments.size*100-1}")
+//        Log.i("test","fragment size ${(fragments.size*100-1)%fragments.size}")
+//        Log.i("test","fragment size ${(fragments.size*100)%fragments.size}")
 
 //        test2, R.drawable.image3, R.drawable.i4808001, R.drawable.i5409601, R.drawable.i60010241
 //        mAdapter = SliderPagerAdapter(supportFragmentManager, fragments)
@@ -79,5 +80,9 @@ class SliderOwn : AppCompatActivity() {
             return Integer.MAX_VALUE
         }
 
+    }
+
+    fun skip (view: View){
+        startActivity(Intent(this, SignUp::class.java))
     }
 }

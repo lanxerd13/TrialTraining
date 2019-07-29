@@ -3,6 +3,7 @@ package com.example.trialapplication
 
 import android.os.Bundle
 import android.support.v4.app.Fragment
+import android.support.v4.view.ViewPager
 import android.util.Log
 import android.view.LayoutInflater
 import android.view.View
@@ -30,6 +31,11 @@ class ContentFragment : Fragment() {
         imageUrls = arguments!!.getString(ARG_PARAM1)
         val view = inflater.inflate(R.layout.slider_own_item, container, false)
         val text = view.findViewById(R.id.text) as TextView
+        val view2 = inflater.inflate(R.layout.slider_own, container, false)
+        val sliderView: ViewPager?  = view2.findViewById(R.id.sliderView)
+//        Log.i("test","slideview $sliderView")
+////        Log.i("test","slideview ${sliderView!!.getCurrentItem()}")
+////        Log.i("test","slideview $inflater")
 //        val view = inflater.inflate(R.layout.slider_own_item, container, false)
         val img = view.findViewById(R.id.img) as ImageView
 
@@ -40,8 +46,9 @@ class ContentFragment : Fragment() {
         Log.i("test","$asd")
         Log.i("test","$resID")
         Log.i("test","$asd2")
+        Log.i("test"," activity $activity")
         text.text = mParam1
-        Glide.with(activity)
+        Glide.with(activity!!)
             .load(imageUrls)
 //            .placeholder(R.drawable.test2)
             .placeholder(resID)

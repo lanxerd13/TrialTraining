@@ -1,5 +1,5 @@
 #Internal package file, do not edit.
-#Mon Jul 29 09:41:06 WIB 2019
+#Mon Jul 29 18:07:05 WIB 2019
 0.baseType=DIRECTORY
 0.base=/home/sts/AndroidStudioProjects/MyApplication3/app/build/intermediates/dex/debug/mergeDexDebug/out
 0.path=classes.dex

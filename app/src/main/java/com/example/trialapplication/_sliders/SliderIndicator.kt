@@ -7,8 +7,10 @@ import android.support.annotation.DimenRes
 import android.support.annotation.DrawableRes
 import android.support.v4.view.ViewPager
 import android.util.Log
+import android.view.LayoutInflater
 import android.view.View
 import android.widget.LinearLayout
+import com.example.trialapplication.R
 
 class SliderIndicator(
     private val mContext: Context,
@@ -85,6 +87,9 @@ class SliderIndicator(
             mContainer.addView(view)
         }
         Log.i("test","position $mViewPager")
+//        TextView tv = (TextView)LayoutInflater.from(this).inflate(R.layout.custom_tab,null)
+//        tv.setTypeface(Typeface);
+//        tabLayout.getTabAt(i).setCustomView(tv);
     }
 
     private fun setIndicatorAsSelected(index: Int) {
@@ -109,15 +114,6 @@ class SliderIndicator(
         Log.i("test","position $position")
         setIndicatorAsSelected(index)
         val moveTo = position + 1
-        if(position === 0){
-            val moveTo = position + 1
-        }
-
-//        try {
-//            Handler().postDelayed({ mViewPager.currentItem = moveTo }, 2500)
-//        } catch (e: Exception) {
-//        }
-
     }
 
     override fun onPageScrollStateChanged(state: Int) {

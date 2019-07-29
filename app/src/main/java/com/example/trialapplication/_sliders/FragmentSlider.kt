@@ -34,7 +34,7 @@ class FragmentSlider : Fragment() {
 //        val id = field.getInt(null)
 //        val drawable = resources.getDrawable(id)
 
-        Glide.with(activity)
+        Glide.with(activity!!)
             .load(imageUrls)
             .placeholder(R.drawable.test2)
 //            .placeholder(resID)

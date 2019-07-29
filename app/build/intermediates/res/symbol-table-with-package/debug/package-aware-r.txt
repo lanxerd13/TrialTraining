@@ -728,9 +728,11 @@ drawable abc_textfield_search_default_mtrl_alpha
 drawable abc_textfield_search_material
 drawable abc_vector_test
 drawable active_dot
+drawable backtext
 drawable benz2
 drawable bg_indicator
 drawable bikess
+drawable edittextstyle
 drawable harley2
 drawable i4808001
 drawable i5409601
@@ -819,6 +821,7 @@ id button4
 id button5
 id button6
 id button7
+id button8
 id buttonPanel
 id center
 id center_horizontal
@@ -832,6 +835,8 @@ id collapseActionView
 id container
 id content
 id contentPanel
+id countrySpinner
+id countryTextSpinner
 id custom
 id customPanel
 id customViewPager
@@ -842,18 +847,21 @@ id direct
 id disableHome
 id edit_query
 id end
+id errorMessage
 id expand_activities_button
 id expanded_menu
 id fill
 id fill_horizontal
 id fill_vertical
 id forever
+id glide_custom_view_target_tag
 id gone
 id group
 id group_divider
 id groups
 id guideline
 id guideline2
+id handphoneNo
 id home
 id homeAsUp
 id horizontal_cycle
@@ -864,6 +872,7 @@ id image
 id imageView
 id imageView5
 id imageViewOther
+id imageViewSignUp
 id imageview
 id img
 id indicator
@@ -945,6 +954,8 @@ id textSpacerNoButtons
 id textSpacerNoTitle
 id textView
 id textView2
+id textView3
+id textView4
 id time
 id title
 id titleDividerNoCustom
@@ -1006,6 +1017,7 @@ layout activity_slider_other_again
 layout activity_slider_other_again_layout
 layout activity_splash
 layout activity_splash_text
+layout country_spinner
 layout indicator_item
 layout indicators_view
 layout infi_slider
@@ -1021,6 +1033,7 @@ layout notification_template_part_time
 layout select_dialog_item_material
 layout select_dialog_multichoice_material
 layout select_dialog_singlechoice_material
+layout sign_up_page
 layout slider_own
 layout slider_own_item
 layout slidingimages_layout

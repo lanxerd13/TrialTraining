@@ -13,7 +13,6 @@
                   android:theme="@style/AppTheme.NoActionBar">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN"/>
-
                 <category android:name="android.intent.category.LAUNCHER"/>
             </intent-filter>
         </activity>
@@ -24,6 +23,8 @@
         <activity android:name=".Slider_other_again" android:theme="@style/AppTheme.NoActionBar"/>
         <activity android:name=".InfiSlider" android:theme="@style/AppTheme.NoActionBar"/>
         <activity android:name=".SliderOwn" android:theme="@style/AppTheme.NoActionBar"/>
+        <activity android:name=".SignUp" android:theme="@style/AppTheme.NoActionBar"/>
+
     </application>
 
 </manifest>

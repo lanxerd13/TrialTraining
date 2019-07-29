@@ -1,15 +1,16 @@
 -- Merging decision tree log ---
 manifest
-ADDED from /home/sts/AndroidStudioProjects/MyApplication3/app/src/main/AndroidManifest.xml:2:1-29:12
-INJECTED from /home/sts/AndroidStudioProjects/MyApplication3/app/src/main/AndroidManifest.xml:2:1-29:12
-INJECTED from /home/sts/AndroidStudioProjects/MyApplication3/app/src/main/AndroidManifest.xml:2:1-29:12
-INJECTED from /home/sts/AndroidStudioProjects/MyApplication3/app/src/main/AndroidManifest.xml:2:1-29:12
+ADDED from /home/sts/AndroidStudioProjects/MyApplication3/app/src/main/AndroidManifest.xml:2:1-30:12
+INJECTED from /home/sts/AndroidStudioProjects/MyApplication3/app/src/main/AndroidManifest.xml:2:1-30:12
+INJECTED from /home/sts/AndroidStudioProjects/MyApplication3/app/src/main/AndroidManifest.xml:2:1-30:12
+INJECTED from /home/sts/AndroidStudioProjects/MyApplication3/app/src/main/AndroidManifest.xml:2:1-30:12
 MERGED from [com.thisobeystudio.customviewpager:customviewpagerkotlin:0.0.1-beta] /home/sts/.gradle/caches/transforms-2/files-2.1/1e3a4e1de568fb3fb42280c876942939/AndroidManifest.xml:2:1-11:12
 MERGED from [com.github.devlight:infinitecycleviewpager:1.0.2] /home/sts/.gradle/caches/transforms-2/files-2.1/4151e6d63f0d15311988ffbeee233ab3/AndroidManifest.xml:2:1-11:12
 MERGED from [com.android.support:appcompat-v7:28.0.0] /home/sts/.gradle/caches/transforms-2/files-2.1/ba6c7d6b36de818fe85b84bbaba5d8f9/AndroidManifest.xml:17:1-22:12
 MERGED from [com.android.support.constraint:constraint-layout:1.1.3] /home/sts/.gradle/caches/transforms-2/files-2.1/124948717cb01379b897d1dd2b4b9edf/AndroidManifest.xml:2:1-11:12
 MERGED from [com.github.JakeWharton:ViewPagerIndicator:2.4.1] /home/sts/.gradle/caches/transforms-2/files-2.1/445de72664aefcb77e8b59334671c335/AndroidManifest.xml:2:1-11:12
 MERGED from [id.zelory:compressor:2.1.0] /home/sts/.gradle/caches/transforms-2/files-2.1/76ecc67783d163797bcb5045efc50d30/AndroidManifest.xml:2:1-12:12
+MERGED from [com.github.bumptech.glide:glide:4.9.0] /home/sts/.gradle/caches/transforms-2/files-2.1/bd6b6fdc155501e111b9d67e0f9f893f/AndroidManifest.xml:2:1-12:12
 MERGED from [com.android.support:support-fragment:28.0.0] /home/sts/.gradle/caches/transforms-2/files-2.1/80776223d635a709ecd6dd4f5a17f51c/AndroidManifest.xml:17:1-22:12
 MERGED from [com.android.support:animated-vector-drawable:28.0.0] /home/sts/.gradle/caches/transforms-2/files-2.1/c0b10fdbf4c4dd187b782f46301767ed/AndroidManifest.xml:17:1-22:12
 MERGED from [com.android.support:recyclerview-v7:27.1.1] /home/sts/.gradle/caches/transforms-2/files-2.1/9e18da19ff11d4af1dd388ebae9d6710/AndroidManifest.xml:17:1-22:12
@@ -27,6 +28,7 @@ MERGED from [com.android.support:asynclayoutinflater:28.0.0] /home/sts/.gradle/c
 MERGED from [com.android.support:support-compat:28.0.0] /home/sts/.gradle/caches/transforms-2/files-2.1/f0580564f63d664f83df4e148f38088d/AndroidManifest.xml:17:1-24:12
 MERGED from [com.android.support:versionedparcelable:28.0.0] /home/sts/.gradle/caches/transforms-2/files-2.1/7f74e1c38542c3847726072fcc91015a/AndroidManifest.xml:17:1-25:12
 MERGED from [com.android.support:cursoradapter:28.0.0] /home/sts/.gradle/caches/transforms-2/files-2.1/d8fcf29d3c59867509ef059bf3b307a5/AndroidManifest.xml:17:1-22:12
+MERGED from [com.github.bumptech.glide:gifdecoder:4.9.0] /home/sts/.gradle/caches/transforms-2/files-2.1/f3f0994c6173e7db171f2adaaec21d7d/AndroidManifest.xml:2:1-11:12
 MERGED from [android.arch.lifecycle:runtime:1.1.1] /home/sts/.gradle/caches/transforms-2/files-2.1/c5c2f29667a7f1c4e88bcfade4427a67/AndroidManifest.xml:17:1-22:12
 MERGED from [com.android.support:documentfile:28.0.0] /home/sts/.gradle/caches/transforms-2/files-2.1/fc6055320e105bc67771e3dd21951896/AndroidManifest.xml:17:1-22:12
 MERGED from [com.android.support:localbroadcastmanager:28.0.0] /home/sts/.gradle/caches/transforms-2/files-2.1/ddda4fbb26d8cc1b79ce53c86c206fb4/AndroidManifest.xml:17:1-22:12
@@ -36,31 +38,35 @@ MERGED from [android.arch.lifecycle:livedata:1.1.1] /home/sts/.gradle/caches/tra
 MERGED from [android.arch.lifecycle:livedata-core:1.1.1] /home/sts/.gradle/caches/transforms-2/files-2.1/81db2cc729948c2d02549cb19639200b/AndroidManifest.xml:17:1-22:12
 MERGED from [android.arch.core:runtime:1.1.1] /home/sts/.gradle/caches/transforms-2/files-2.1/a25e4d2afcc283339252533a6ffd9cd2/AndroidManifest.xml:17:1-22:12
 MERGED from [com.android.support:interpolator:28.0.0] /home/sts/.gradle/caches/transforms-2/files-2.1/56f90b73fc6c0ae958a91e300186aa30/AndroidManifest.xml:17:1-22:12
-INJECTED from /home/sts/AndroidStudioProjects/MyApplication3/app/src/main/AndroidManifest.xml:2:1-29:12
-INJECTED from /home/sts/AndroidStudioProjects/MyApplication3/app/src/main/AndroidManifest.xml:2:1-29:12
-INJECTED from /home/sts/AndroidStudioProjects/MyApplication3/app/src/main/AndroidManifest.xml:2:1-29:12
+INJECTED from /home/sts/AndroidStudioProjects/MyApplication3/app/src/main/AndroidManifest.xml:2:1-30:12
+INJECTED from /home/sts/AndroidStudioProjects/MyApplication3/app/src/main/AndroidManifest.xml:2:1-30:12
+INJECTED from /home/sts/AndroidStudioProjects/MyApplication3/app/src/main/AndroidManifest.xml:2:1-30:12
 	package
 		ADDED from /home/sts/AndroidStudioProjects/MyApplication3/app/src/main/AndroidManifest.xml:3:11-49
 		INJECTED from /home/sts/AndroidStudioProjects/MyApplication3/app/src/main/AndroidManifest.xml
 		INJECTED from /home/sts/AndroidStudioProjects/MyApplication3/app/src/main/AndroidManifest.xml
 	android:versionName
 		INJECTED from /home/sts/AndroidStudioProjects/MyApplication3/app/src/main/AndroidManifest.xml
-		ADDED from /home/sts/AndroidStudioProjects/MyApplication3/app/src/main/AndroidManifest.xml:2:1-29:12
+		ADDED from /home/sts/AndroidStudioProjects/MyApplication3/app/src/main/AndroidManifest.xml:2:1-30:12
 		INJECTED from /home/sts/AndroidStudioProjects/MyApplication3/app/src/main/AndroidManifest.xml
 	android:versionCode
 		INJECTED from /home/sts/AndroidStudioProjects/MyApplication3/app/src/main/AndroidManifest.xml
-		ADDED from /home/sts/AndroidStudioProjects/MyApplication3/app/src/main/AndroidManifest.xml:2:1-29:12
+		ADDED from /home/sts/AndroidStudioProjects/MyApplication3/app/src/main/AndroidManifest.xml:2:1-30:12
 		INJECTED from /home/sts/AndroidStudioProjects/MyApplication3/app/src/main/AndroidManifest.xml
 	xmlns:android
 		ADDED from /home/sts/AndroidStudioProjects/MyApplication3/app/src/main/AndroidManifest.xml:2:11-69
 application
-ADDED from /home/sts/AndroidStudioProjects/MyApplication3/app/src/main/AndroidManifest.xml:5:5-27:19
+ADDED from /home/sts/AndroidStudioProjects/MyApplication3/app/src/main/AndroidManifest.xml:5:5-28:19
 MERGED from [com.android.support.constraint:constraint-layout:1.1.3] /home/sts/.gradle/caches/transforms-2/files-2.1/124948717cb01379b897d1dd2b4b9edf/AndroidManifest.xml:9:5-20
 MERGED from [com.android.support.constraint:constraint-layout:1.1.3] /home/sts/.gradle/caches/transforms-2/files-2.1/124948717cb01379b897d1dd2b4b9edf/AndroidManifest.xml:9:5-20
+MERGED from [com.github.bumptech.glide:glide:4.9.0] /home/sts/.gradle/caches/transforms-2/files-2.1/bd6b6fdc155501e111b9d67e0f9f893f/AndroidManifest.xml:10:5-20
+MERGED from [com.github.bumptech.glide:glide:4.9.0] /home/sts/.gradle/caches/transforms-2/files-2.1/bd6b6fdc155501e111b9d67e0f9f893f/AndroidManifest.xml:10:5-20
 MERGED from [com.android.support:support-compat:28.0.0] /home/sts/.gradle/caches/transforms-2/files-2.1/f0580564f63d664f83df4e148f38088d/AndroidManifest.xml:22:5-94
 MERGED from [com.android.support:support-compat:28.0.0] /home/sts/.gradle/caches/transforms-2/files-2.1/f0580564f63d664f83df4e148f38088d/AndroidManifest.xml:22:5-94
 MERGED from [com.android.support:versionedparcelable:28.0.0] /home/sts/.gradle/caches/transforms-2/files-2.1/7f74e1c38542c3847726072fcc91015a/AndroidManifest.xml:22:5-23:19
 MERGED from [com.android.support:versionedparcelable:28.0.0] /home/sts/.gradle/caches/transforms-2/files-2.1/7f74e1c38542c3847726072fcc91015a/AndroidManifest.xml:22:5-23:19
+MERGED from [com.github.bumptech.glide:gifdecoder:4.9.0] /home/sts/.gradle/caches/transforms-2/files-2.1/f3f0994c6173e7db171f2adaaec21d7d/AndroidManifest.xml:9:5-20
+MERGED from [com.github.bumptech.glide:gifdecoder:4.9.0] /home/sts/.gradle/caches/transforms-2/files-2.1/f3f0994c6173e7db171f2adaaec21d7d/AndroidManifest.xml:9:5-20
 	android:appComponentFactory
 		ADDED from [com.android.support:support-compat:28.0.0] /home/sts/.gradle/caches/transforms-2/files-2.1/f0580564f63d664f83df4e148f38088d/AndroidManifest.xml:22:18-91
 	android:supportsRtl
@@ -76,61 +82,67 @@ MERGED from [com.android.support:versionedparcelable:28.0.0] /home/sts/.gradle/c
 	android:theme
 		ADDED from /home/sts/AndroidStudioProjects/MyApplication3/app/src/main/AndroidManifest.xml:11:13-44
 activity#com.example.trialapplication.SplashScreenActivity
-ADDED from /home/sts/AndroidStudioProjects/MyApplication3/app/src/main/AndroidManifest.xml:12:9-19:20
+ADDED from /home/sts/AndroidStudioProjects/MyApplication3/app/src/main/AndroidManifest.xml:12:9-18:20
 	android:theme
 		ADDED from /home/sts/AndroidStudioProjects/MyApplication3/app/src/main/AndroidManifest.xml:13:19-62
 	android:name
 		ADDED from /home/sts/AndroidStudioProjects/MyApplication3/app/src/main/AndroidManifest.xml:12:19-55
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from /home/sts/AndroidStudioProjects/MyApplication3/app/src/main/AndroidManifest.xml:14:13-18:29
+ADDED from /home/sts/AndroidStudioProjects/MyApplication3/app/src/main/AndroidManifest.xml:14:13-17:29
 action#android.intent.action.MAIN
 ADDED from /home/sts/AndroidStudioProjects/MyApplication3/app/src/main/AndroidManifest.xml:15:17-68
 	android:name
 		ADDED from /home/sts/AndroidStudioProjects/MyApplication3/app/src/main/AndroidManifest.xml:15:25-66
 category#android.intent.category.LAUNCHER
-ADDED from /home/sts/AndroidStudioProjects/MyApplication3/app/src/main/AndroidManifest.xml:17:17-76
+ADDED from /home/sts/AndroidStudioProjects/MyApplication3/app/src/main/AndroidManifest.xml:16:17-76
 	android:name
-		ADDED from /home/sts/AndroidStudioProjects/MyApplication3/app/src/main/AndroidManifest.xml:17:27-74
+		ADDED from /home/sts/AndroidStudioProjects/MyApplication3/app/src/main/AndroidManifest.xml:16:27-74
 activity#com.example.trialapplication.MainActivity
-ADDED from /home/sts/AndroidStudioProjects/MyApplication3/app/src/main/AndroidManifest.xml:20:9-50
+ADDED from /home/sts/AndroidStudioProjects/MyApplication3/app/src/main/AndroidManifest.xml:19:9-50
 	android:name
-		ADDED from /home/sts/AndroidStudioProjects/MyApplication3/app/src/main/AndroidManifest.xml:20:19-47
+		ADDED from /home/sts/AndroidStudioProjects/MyApplication3/app/src/main/AndroidManifest.xml:19:19-47
 activity#com.example.trialapplication.SplashScreenTextActivity
-ADDED from /home/sts/AndroidStudioProjects/MyApplication3/app/src/main/AndroidManifest.xml:21:9-105
+ADDED from /home/sts/AndroidStudioProjects/MyApplication3/app/src/main/AndroidManifest.xml:20:9-105
 	android:theme
-		ADDED from /home/sts/AndroidStudioProjects/MyApplication3/app/src/main/AndroidManifest.xml:21:60-103
+		ADDED from /home/sts/AndroidStudioProjects/MyApplication3/app/src/main/AndroidManifest.xml:20:60-103
 	android:name
-		ADDED from /home/sts/AndroidStudioProjects/MyApplication3/app/src/main/AndroidManifest.xml:21:19-59
+		ADDED from /home/sts/AndroidStudioProjects/MyApplication3/app/src/main/AndroidManifest.xml:20:19-59
 activity#com.example.trialapplication.Slider
-ADDED from /home/sts/AndroidStudioProjects/MyApplication3/app/src/main/AndroidManifest.xml:22:9-87
+ADDED from /home/sts/AndroidStudioProjects/MyApplication3/app/src/main/AndroidManifest.xml:21:9-87
 	android:theme
-		ADDED from /home/sts/AndroidStudioProjects/MyApplication3/app/src/main/AndroidManifest.xml:22:42-85
+		ADDED from /home/sts/AndroidStudioProjects/MyApplication3/app/src/main/AndroidManifest.xml:21:42-85
 	android:name
-		ADDED from /home/sts/AndroidStudioProjects/MyApplication3/app/src/main/AndroidManifest.xml:22:19-41
+		ADDED from /home/sts/AndroidStudioProjects/MyApplication3/app/src/main/AndroidManifest.xml:21:19-41
 activity#com.example.trialapplication.Slider_other
-ADDED from /home/sts/AndroidStudioProjects/MyApplication3/app/src/main/AndroidManifest.xml:23:9-93
+ADDED from /home/sts/AndroidStudioProjects/MyApplication3/app/src/main/AndroidManifest.xml:22:9-93
 	android:theme
-		ADDED from /home/sts/AndroidStudioProjects/MyApplication3/app/src/main/AndroidManifest.xml:23:48-91
+		ADDED from /home/sts/AndroidStudioProjects/MyApplication3/app/src/main/AndroidManifest.xml:22:48-91
 	android:name
-		ADDED from /home/sts/AndroidStudioProjects/MyApplication3/app/src/main/AndroidManifest.xml:23:19-47
+		ADDED from /home/sts/AndroidStudioProjects/MyApplication3/app/src/main/AndroidManifest.xml:22:19-47
 activity#com.example.trialapplication.Slider_other_again
-ADDED from /home/sts/AndroidStudioProjects/MyApplication3/app/src/main/AndroidManifest.xml:24:9-99
+ADDED from /home/sts/AndroidStudioProjects/MyApplication3/app/src/main/AndroidManifest.xml:23:9-99
 	android:theme
-		ADDED from /home/sts/AndroidStudioProjects/MyApplication3/app/src/main/AndroidManifest.xml:24:54-97
+		ADDED from /home/sts/AndroidStudioProjects/MyApplication3/app/src/main/AndroidManifest.xml:23:54-97
 	android:name
-		ADDED from /home/sts/AndroidStudioProjects/MyApplication3/app/src/main/AndroidManifest.xml:24:19-53
+		ADDED from /home/sts/AndroidStudioProjects/MyApplication3/app/src/main/AndroidManifest.xml:23:19-53
 activity#com.example.trialapplication.InfiSlider
-ADDED from /home/sts/AndroidStudioProjects/MyApplication3/app/src/main/AndroidManifest.xml:25:9-91
+ADDED from /home/sts/AndroidStudioProjects/MyApplication3/app/src/main/AndroidManifest.xml:24:9-91
 	android:theme
-		ADDED from /home/sts/AndroidStudioProjects/MyApplication3/app/src/main/AndroidManifest.xml:25:46-89
+		ADDED from /home/sts/AndroidStudioProjects/MyApplication3/app/src/main/AndroidManifest.xml:24:46-89
 	android:name
-		ADDED from /home/sts/AndroidStudioProjects/MyApplication3/app/src/main/AndroidManifest.xml:25:19-45
+		ADDED from /home/sts/AndroidStudioProjects/MyApplication3/app/src/main/AndroidManifest.xml:24:19-45
 activity#com.example.trialapplication.SliderOwn
-ADDED from /home/sts/AndroidStudioProjects/MyApplication3/app/src/main/AndroidManifest.xml:26:9-90
+ADDED from /home/sts/AndroidStudioProjects/MyApplication3/app/src/main/AndroidManifest.xml:25:9-90
 	android:theme
-		ADDED from /home/sts/AndroidStudioProjects/MyApplication3/app/src/main/AndroidManifest.xml:26:45-88
+		ADDED from /home/sts/AndroidStudioProjects/MyApplication3/app/src/main/AndroidManifest.xml:25:45-88
 	android:name
-		ADDED from /home/sts/AndroidStudioProjects/MyApplication3/app/src/main/AndroidManifest.xml:26:19-44
+		ADDED from /home/sts/AndroidStudioProjects/MyApplication3/app/src/main/AndroidManifest.xml:25:19-44
+activity#com.example.trialapplication.SignUp
+ADDED from /home/sts/AndroidStudioProjects/MyApplication3/app/src/main/AndroidManifest.xml:26:9-87
+	android:theme
+		ADDED from /home/sts/AndroidStudioProjects/MyApplication3/app/src/main/AndroidManifest.xml:26:42-85
+	android:name
+		ADDED from /home/sts/AndroidStudioProjects/MyApplication3/app/src/main/AndroidManifest.xml:26:19-41
 uses-sdk
 INJECTED from /home/sts/AndroidStudioProjects/MyApplication3/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from /home/sts/AndroidStudioProjects/MyApplication3/app/src/main/AndroidManifest.xml
@@ -147,6 +159,8 @@ MERGED from [com.github.JakeWharton:ViewPagerIndicator:2.4.1] /home/sts/.gradle/
 MERGED from [com.github.JakeWharton:ViewPagerIndicator:2.4.1] /home/sts/.gradle/caches/transforms-2/files-2.1/445de72664aefcb77e8b59334671c335/AndroidManifest.xml:7:5-9:41
 MERGED from [id.zelory:compressor:2.1.0] /home/sts/.gradle/caches/transforms-2/files-2.1/76ecc67783d163797bcb5045efc50d30/AndroidManifest.xml:8:5-10:41
 MERGED from [id.zelory:compressor:2.1.0] /home/sts/.gradle/caches/transforms-2/files-2.1/76ecc67783d163797bcb5045efc50d30/AndroidManifest.xml:8:5-10:41
+MERGED from [com.github.bumptech.glide:glide:4.9.0] /home/sts/.gradle/caches/transforms-2/files-2.1/bd6b6fdc155501e111b9d67e0f9f893f/AndroidManifest.xml:6:5-8:41
+MERGED from [com.github.bumptech.glide:glide:4.9.0] /home/sts/.gradle/caches/transforms-2/files-2.1/bd6b6fdc155501e111b9d67e0f9f893f/AndroidManifest.xml:6:5-8:41
 MERGED from [com.android.support:support-fragment:28.0.0] /home/sts/.gradle/caches/transforms-2/files-2.1/80776223d635a709ecd6dd4f5a17f51c/AndroidManifest.xml:20:5-44
 MERGED from [com.android.support:support-fragment:28.0.0] /home/sts/.gradle/caches/transforms-2/files-2.1/80776223d635a709ecd6dd4f5a17f51c/AndroidManifest.xml:20:5-44
 MERGED from [com.android.support:animated-vector-drawable:28.0.0] /home/sts/.gradle/caches/transforms-2/files-2.1/c0b10fdbf4c4dd187b782f46301767ed/AndroidManifest.xml:20:5-44
@@ -181,6 +195,8 @@ MERGED from [com.android.support:versionedparcelable:28.0.0] /home/sts/.gradle/c
 MERGED from [com.android.support:versionedparcelable:28.0.0] /home/sts/.gradle/caches/transforms-2/files-2.1/7f74e1c38542c3847726072fcc91015a/AndroidManifest.xml:20:5-44
 MERGED from [com.android.support:cursoradapter:28.0.0] /home/sts/.gradle/caches/transforms-2/files-2.1/d8fcf29d3c59867509ef059bf3b307a5/AndroidManifest.xml:20:5-44
 MERGED from [com.android.support:cursoradapter:28.0.0] /home/sts/.gradle/caches/transforms-2/files-2.1/d8fcf29d3c59867509ef059bf3b307a5/AndroidManifest.xml:20:5-44
+MERGED from [com.github.bumptech.glide:gifdecoder:4.9.0] /home/sts/.gradle/caches/transforms-2/files-2.1/f3f0994c6173e7db171f2adaaec21d7d/AndroidManifest.xml:5:5-7:41
+MERGED from [com.github.bumptech.glide:gifdecoder:4.9.0] /home/sts/.gradle/caches/transforms-2/files-2.1/f3f0994c6173e7db171f2adaaec21d7d/AndroidManifest.xml:5:5-7:41
 MERGED from [android.arch.lifecycle:runtime:1.1.1] /home/sts/.gradle/caches/transforms-2/files-2.1/c5c2f29667a7f1c4e88bcfade4427a67/AndroidManifest.xml:20:5-44
 MERGED from [android.arch.lifecycle:runtime:1.1.1] /home/sts/.gradle/caches/transforms-2/files-2.1/c5c2f29667a7f1c4e88bcfade4427a67/AndroidManifest.xml:20:5-44
 MERGED from [com.android.support:documentfile:28.0.0] /home/sts/.gradle/caches/transforms-2/files-2.1/fc6055320e105bc67771e3dd21951896/AndroidManifest.xml:20:5-44
