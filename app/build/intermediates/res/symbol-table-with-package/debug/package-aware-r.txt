@@ -425,6 +425,7 @@ color background_floating_material_dark
 color background_floating_material_light
 color background_material_dark
 color background_material_light
+color blue
 color bright_foreground_disabled_material_dark
 color bright_foreground_disabled_material_light
 color bright_foreground_inverse_material_dark
@@ -504,6 +505,7 @@ color vpi__bright_foreground_inverse_holo_dark
 color vpi__bright_foreground_inverse_holo_light
 color vpi__dark_theme
 color vpi__light_theme
+color yellow
 dimen abc_action_bar_content_inset_material
 dimen abc_action_bar_content_inset_with_nav
 dimen abc_action_bar_default_height_material
@@ -635,6 +637,9 @@ dimen notification_small_icon_size_as_large
 dimen notification_subtext_size
 dimen notification_top_pad
 dimen notification_top_pad_large_text
+dimen pin_content_layout_padding
+dimen pin_label_margin
+dimen pin_min_width
 dimen tooltip_corner_radius
 dimen tooltip_horizontal_padding
 dimen tooltip_margin
@@ -767,6 +772,8 @@ drawable slide2
 drawable test
 drawable test2
 drawable test3
+drawable textfield_default_holo_light
+drawable textfield_focused_holo
 drawable tooltip_frame_dark
 drawable tooltip_frame_light
 drawable vecto
@@ -835,6 +842,7 @@ id collapseActionView
 id container
 id content
 id contentPanel
+id countdownTimerText
 id countrySpinner
 id countryTextSpinner
 id custom
@@ -905,10 +913,19 @@ id pagesContainer
 id parent
 id parentPanel
 id percent
+id pin_content_layout
+id pin_fifth_edittext
+id pin_first_edittext
+id pin_forth_edittext
+id pin_hidden_edittext
+id pin_layout
+id pin_second_edittext
+id pin_third_edittext
 id progress_circular
 id progress_horizontal
 id radio
 id relativeLayout
+id resend
 id right
 id right_icon
 id right_side
@@ -1038,6 +1055,7 @@ layout slider_own
 layout slider_own_item
 layout slidingimages_layout
 layout support_simple_spinner_dropdown_item
+layout verification_page
 layout viewpager_activity
 mipmap ic_launcher
 mipmap ic_launcher_round
@@ -1082,6 +1100,8 @@ string abc_shareactionprovider_share_with_application
 string abc_toolbar_collapse_description
 string app_name
 string appbar_scrolling_view_behavior
+string pin_content_desc
+string pin_label_text
 string search_menu_title
 string status_bar_notification_info_overflow
 style AlertDialog_AppCompat
@@ -1440,6 +1460,7 @@ style Widget_Compat_NotificationActionText
 style Widget_IconPageIndicator
 style Widget_Support_CoordinatorLayout
 style Widget_TabPageIndicator
+style pin_edittext_style
 styleable ActionBar background backgroundSplit backgroundStacked contentInsetEnd contentInsetEndWithActions contentInsetLeft contentInsetRight contentInsetStart contentInsetStartWithNavigation customNavigationLayout displayOptions divider elevation height hideOnContentScroll homeAsUpIndicator homeLayout icon indeterminateProgressStyle itemPadding logo navigationMode popupTheme progressBarPadding progressBarStyle subtitle subtitleTextStyle title titleTextStyle
 styleable ActionBarLayout android_layout_gravity
 styleable ActionMenuItemView android_minWidth

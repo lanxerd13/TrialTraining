@@ -39,10 +39,10 @@ public final class R {
     public static final class color {
         private color() {}
 
-        public static final int notification_action_color_filter = 0x7f04004b;
-        public static final int notification_icon_bg_color = 0x7f04004c;
-        public static final int ripple_material_light = 0x7f040056;
-        public static final int secondary_text_default_material_light = 0x7f040058;
+        public static final int notification_action_color_filter = 0x7f04004c;
+        public static final int notification_icon_bg_color = 0x7f04004d;
+        public static final int ripple_material_light = 0x7f040057;
+        public static final int secondary_text_default_material_light = 0x7f040059;
     }
     public static final class dimen {
         private dimen() {}
@@ -96,31 +96,31 @@ public final class R {
         public static final int blocking = 0x7f070022;
         public static final int bottom = 0x7f070023;
         public static final int chronometer = 0x7f070032;
-        public static final int end = 0x7f070044;
-        public static final int forever = 0x7f07004b;
-        public static final int glide_custom_view_target_tag = 0x7f07004c;
-        public static final int icon = 0x7f070057;
-        public static final int icon_group = 0x7f070058;
-        public static final int info = 0x7f070065;
-        public static final int italic = 0x7f070067;
-        public static final int left = 0x7f07006a;
-        public static final int line1 = 0x7f07006b;
-        public static final int line3 = 0x7f07006c;
-        public static final int none = 0x7f070074;
-        public static final int normal = 0x7f070075;
-        public static final int notification_background = 0x7f070076;
-        public static final int notification_main_column = 0x7f070077;
-        public static final int notification_main_column_container = 0x7f070078;
-        public static final int right = 0x7f070083;
-        public static final int right_icon = 0x7f070084;
-        public static final int right_side = 0x7f070085;
-        public static final int start = 0x7f0700a3;
-        public static final int tag_transition_group = 0x7f0700a7;
-        public static final int text = 0x7f0700aa;
-        public static final int text2 = 0x7f0700ab;
-        public static final int time = 0x7f0700b2;
-        public static final int title = 0x7f0700b3;
-        public static final int top = 0x7f0700b6;
+        public static final int end = 0x7f070045;
+        public static final int forever = 0x7f07004c;
+        public static final int glide_custom_view_target_tag = 0x7f07004d;
+        public static final int icon = 0x7f070058;
+        public static final int icon_group = 0x7f070059;
+        public static final int info = 0x7f070066;
+        public static final int italic = 0x7f070068;
+        public static final int left = 0x7f07006b;
+        public static final int line1 = 0x7f07006c;
+        public static final int line3 = 0x7f07006d;
+        public static final int none = 0x7f070075;
+        public static final int normal = 0x7f070076;
+        public static final int notification_background = 0x7f070077;
+        public static final int notification_main_column = 0x7f070078;
+        public static final int notification_main_column_container = 0x7f070079;
+        public static final int right = 0x7f07008d;
+        public static final int right_icon = 0x7f07008e;
+        public static final int right_side = 0x7f07008f;
+        public static final int start = 0x7f0700ad;
+        public static final int tag_transition_group = 0x7f0700b1;
+        public static final int text = 0x7f0700b4;
+        public static final int text2 = 0x7f0700b5;
+        public static final int time = 0x7f0700bc;
+        public static final int title = 0x7f0700bd;
+        public static final int top = 0x7f0700c0;
     }
     public static final class integer {
         private integer() {}
@@ -140,7 +140,7 @@ public final class R {
     public static final class string {
         private string() {}
 
-        public static final int status_bar_notification_info_overflow = 0x7f0b002a;
+        public static final int status_bar_notification_info_overflow = 0x7f0b002c;
     }
     public static final class style {
         private style() {}

@@ -110,6 +110,7 @@ class SignUp : AppCompatActivity(), AdapterView.OnItemSelectedListener {
         }else{
             errorMessage.text = ""
             Log.i("test", "pos ${textView_msg+phoneNo.text}")
+            startActivity(Intent(this, VerificationPage::class.java))
         }
 
 

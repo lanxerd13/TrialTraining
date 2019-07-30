@@ -1,9 +1,9 @@
 -- Merging decision tree log ---
 manifest
-ADDED from /home/sts/AndroidStudioProjects/MyApplication3/app/src/main/AndroidManifest.xml:2:1-30:12
-INJECTED from /home/sts/AndroidStudioProjects/MyApplication3/app/src/main/AndroidManifest.xml:2:1-30:12
-INJECTED from /home/sts/AndroidStudioProjects/MyApplication3/app/src/main/AndroidManifest.xml:2:1-30:12
-INJECTED from /home/sts/AndroidStudioProjects/MyApplication3/app/src/main/AndroidManifest.xml:2:1-30:12
+ADDED from /home/sts/AndroidStudioProjects/MyApplication3/app/src/main/AndroidManifest.xml:2:1-31:12
+INJECTED from /home/sts/AndroidStudioProjects/MyApplication3/app/src/main/AndroidManifest.xml:2:1-31:12
+INJECTED from /home/sts/AndroidStudioProjects/MyApplication3/app/src/main/AndroidManifest.xml:2:1-31:12
+INJECTED from /home/sts/AndroidStudioProjects/MyApplication3/app/src/main/AndroidManifest.xml:2:1-31:12
 MERGED from [com.thisobeystudio.customviewpager:customviewpagerkotlin:0.0.1-beta] /home/sts/.gradle/caches/transforms-2/files-2.1/1e3a4e1de568fb3fb42280c876942939/AndroidManifest.xml:2:1-11:12
 MERGED from [com.github.devlight:infinitecycleviewpager:1.0.2] /home/sts/.gradle/caches/transforms-2/files-2.1/4151e6d63f0d15311988ffbeee233ab3/AndroidManifest.xml:2:1-11:12
 MERGED from [com.android.support:appcompat-v7:28.0.0] /home/sts/.gradle/caches/transforms-2/files-2.1/ba6c7d6b36de818fe85b84bbaba5d8f9/AndroidManifest.xml:17:1-22:12
@@ -38,25 +38,25 @@ MERGED from [android.arch.lifecycle:livedata:1.1.1] /home/sts/.gradle/caches/tra
 MERGED from [android.arch.lifecycle:livedata-core:1.1.1] /home/sts/.gradle/caches/transforms-2/files-2.1/81db2cc729948c2d02549cb19639200b/AndroidManifest.xml:17:1-22:12
 MERGED from [android.arch.core:runtime:1.1.1] /home/sts/.gradle/caches/transforms-2/files-2.1/a25e4d2afcc283339252533a6ffd9cd2/AndroidManifest.xml:17:1-22:12
 MERGED from [com.android.support:interpolator:28.0.0] /home/sts/.gradle/caches/transforms-2/files-2.1/56f90b73fc6c0ae958a91e300186aa30/AndroidManifest.xml:17:1-22:12
-INJECTED from /home/sts/AndroidStudioProjects/MyApplication3/app/src/main/AndroidManifest.xml:2:1-30:12
-INJECTED from /home/sts/AndroidStudioProjects/MyApplication3/app/src/main/AndroidManifest.xml:2:1-30:12
-INJECTED from /home/sts/AndroidStudioProjects/MyApplication3/app/src/main/AndroidManifest.xml:2:1-30:12
+INJECTED from /home/sts/AndroidStudioProjects/MyApplication3/app/src/main/AndroidManifest.xml:2:1-31:12
+INJECTED from /home/sts/AndroidStudioProjects/MyApplication3/app/src/main/AndroidManifest.xml:2:1-31:12
+INJECTED from /home/sts/AndroidStudioProjects/MyApplication3/app/src/main/AndroidManifest.xml:2:1-31:12
 	package
 		ADDED from /home/sts/AndroidStudioProjects/MyApplication3/app/src/main/AndroidManifest.xml:3:11-49
 		INJECTED from /home/sts/AndroidStudioProjects/MyApplication3/app/src/main/AndroidManifest.xml
 		INJECTED from /home/sts/AndroidStudioProjects/MyApplication3/app/src/main/AndroidManifest.xml
 	android:versionName
 		INJECTED from /home/sts/AndroidStudioProjects/MyApplication3/app/src/main/AndroidManifest.xml
-		ADDED from /home/sts/AndroidStudioProjects/MyApplication3/app/src/main/AndroidManifest.xml:2:1-30:12
+		ADDED from /home/sts/AndroidStudioProjects/MyApplication3/app/src/main/AndroidManifest.xml:2:1-31:12
 		INJECTED from /home/sts/AndroidStudioProjects/MyApplication3/app/src/main/AndroidManifest.xml
 	android:versionCode
 		INJECTED from /home/sts/AndroidStudioProjects/MyApplication3/app/src/main/AndroidManifest.xml
-		ADDED from /home/sts/AndroidStudioProjects/MyApplication3/app/src/main/AndroidManifest.xml:2:1-30:12
+		ADDED from /home/sts/AndroidStudioProjects/MyApplication3/app/src/main/AndroidManifest.xml:2:1-31:12
 		INJECTED from /home/sts/AndroidStudioProjects/MyApplication3/app/src/main/AndroidManifest.xml
 	xmlns:android
 		ADDED from /home/sts/AndroidStudioProjects/MyApplication3/app/src/main/AndroidManifest.xml:2:11-69
 application
-ADDED from /home/sts/AndroidStudioProjects/MyApplication3/app/src/main/AndroidManifest.xml:5:5-28:19
+ADDED from /home/sts/AndroidStudioProjects/MyApplication3/app/src/main/AndroidManifest.xml:5:5-29:19
 MERGED from [com.android.support.constraint:constraint-layout:1.1.3] /home/sts/.gradle/caches/transforms-2/files-2.1/124948717cb01379b897d1dd2b4b9edf/AndroidManifest.xml:9:5-20
 MERGED from [com.android.support.constraint:constraint-layout:1.1.3] /home/sts/.gradle/caches/transforms-2/files-2.1/124948717cb01379b897d1dd2b4b9edf/AndroidManifest.xml:9:5-20
 MERGED from [com.github.bumptech.glide:glide:4.9.0] /home/sts/.gradle/caches/transforms-2/files-2.1/bd6b6fdc155501e111b9d67e0f9f893f/AndroidManifest.xml:10:5-20
@@ -143,6 +143,12 @@ ADDED from /home/sts/AndroidStudioProjects/MyApplication3/app/src/main/AndroidMa
 		ADDED from /home/sts/AndroidStudioProjects/MyApplication3/app/src/main/AndroidManifest.xml:26:42-85
 	android:name
 		ADDED from /home/sts/AndroidStudioProjects/MyApplication3/app/src/main/AndroidManifest.xml:26:19-41
+activity#com.example.trialapplication.VerificationPage
+ADDED from /home/sts/AndroidStudioProjects/MyApplication3/app/src/main/AndroidManifest.xml:27:9-97
+	android:theme
+		ADDED from /home/sts/AndroidStudioProjects/MyApplication3/app/src/main/AndroidManifest.xml:27:52-95
+	android:name
+		ADDED from /home/sts/AndroidStudioProjects/MyApplication3/app/src/main/AndroidManifest.xml:27:19-51
 uses-sdk
 INJECTED from /home/sts/AndroidStudioProjects/MyApplication3/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from /home/sts/AndroidStudioProjects/MyApplication3/app/src/main/AndroidManifest.xml
