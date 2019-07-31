@@ -56,12 +56,12 @@
         "source": "/home/sts/.gradle/caches/transforms-2/files-2.1/ba6c7d6b36de818fe85b84bbaba5d8f9/res/drawable/abc_list_selector_background_transition_holo_dark.xml"
     },
     {
-        "merged": "/home/sts/AndroidStudioProjects/MyApplication3/app/build/intermediates/res/merged/debug/drawable_i72012801.jpg.flat",
-        "source": "/home/sts/AndroidStudioProjects/MyApplication3/app/src/main/res/drawable/i72012801.jpg"
-    },
-    {
         "merged": "/home/sts/AndroidStudioProjects/MyApplication3/app/build/intermediates/res/merged/debug/drawable_abc_ic_clear_material.xml.flat",
         "source": "/home/sts/.gradle/caches/transforms-2/files-2.1/ba6c7d6b36de818fe85b84bbaba5d8f9/res/drawable/abc_ic_clear_material.xml"
+    },
+    {
+        "merged": "/home/sts/AndroidStudioProjects/MyApplication3/app/build/intermediates/res/merged/debug/drawable_i72012801.jpg.flat",
+        "source": "/home/sts/AndroidStudioProjects/MyApplication3/app/src/main/res/drawable/i72012801.jpg"
     },
     {
         "merged": "/home/sts/AndroidStudioProjects/MyApplication3/app/build/intermediates/res/merged/debug/drawable-v21_abc_list_divider_material.xml.flat",
@@ -120,12 +120,12 @@
         "source": "/home/sts/AndroidStudioProjects/MyApplication3/app/build/generated/res/pngs/debug/drawable-mdpi/ic_launcher_background.png"
     },
     {
-        "merged": "/home/sts/AndroidStudioProjects/MyApplication3/app/build/intermediates/res/merged/debug/layout_abc_dialog_title_material.xml.flat",
-        "source": "/home/sts/.gradle/caches/transforms-2/files-2.1/ba6c7d6b36de818fe85b84bbaba5d8f9/res/layout/abc_dialog_title_material.xml"
-    },
-    {
         "merged": "/home/sts/AndroidStudioProjects/MyApplication3/app/build/intermediates/res/merged/debug/color_abc_primary_text_material_dark.xml.flat",
         "source": "/home/sts/.gradle/caches/transforms-2/files-2.1/ba6c7d6b36de818fe85b84bbaba5d8f9/res/color/abc_primary_text_material_dark.xml"
+    },
+    {
+        "merged": "/home/sts/AndroidStudioProjects/MyApplication3/app/build/intermediates/res/merged/debug/layout_abc_dialog_title_material.xml.flat",
+        "source": "/home/sts/.gradle/caches/transforms-2/files-2.1/ba6c7d6b36de818fe85b84bbaba5d8f9/res/layout/abc_dialog_title_material.xml"
     },
     {
         "merged": "/home/sts/AndroidStudioProjects/MyApplication3/app/build/intermediates/res/merged/debug/color-v21_abc_btn_colored_borderless_text_material.xml.flat",
@@ -162,6 +162,10 @@
     {
         "merged": "/home/sts/AndroidStudioProjects/MyApplication3/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4_abc_ic_star_black_48dp.png.flat",
         "source": "/home/sts/.gradle/caches/transforms-2/files-2.1/ba6c7d6b36de818fe85b84bbaba5d8f9/res/drawable-xhdpi-v4/abc_ic_star_black_48dp.png"
+    },
+    {
+        "merged": "/home/sts/AndroidStudioProjects/MyApplication3/app/build/intermediates/res/merged/debug/layout_home_page_item.xml.flat",
+        "source": "/home/sts/AndroidStudioProjects/MyApplication3/app/src/main/res/layout/home_page_item.xml"
     },
     {
         "merged": "/home/sts/AndroidStudioProjects/MyApplication3/app/build/intermediates/res/merged/debug/drawable_edittextstyle.xml.flat",
@@ -298,6 +302,10 @@
     {
         "merged": "/home/sts/AndroidStudioProjects/MyApplication3/app/build/intermediates/res/merged/debug/drawable-ldrtl-mdpi-v17_abc_spinner_mtrl_am_alpha.9.png.flat",
         "source": "/home/sts/.gradle/caches/transforms-2/files-2.1/ba6c7d6b36de818fe85b84bbaba5d8f9/res/drawable-ldrtl-mdpi-v17/abc_spinner_mtrl_am_alpha.9.png"
+    },
+    {
+        "merged": "/home/sts/AndroidStudioProjects/MyApplication3/app/build/intermediates/res/merged/debug/layout_home_page.xml.flat",
+        "source": "/home/sts/AndroidStudioProjects/MyApplication3/app/src/main/res/layout/home_page.xml"
     },
     {
         "merged": "/home/sts/AndroidStudioProjects/MyApplication3/app/build/intermediates/res/merged/debug/layout_activity_slider_other.xml.flat",
@@ -1028,6 +1036,10 @@
         "source": "/home/sts/.gradle/caches/transforms-2/files-2.1/ba6c7d6b36de818fe85b84bbaba5d8f9/res/anim/abc_shrink_fade_out_from_bottom.xml"
     },
     {
+        "merged": "/home/sts/AndroidStudioProjects/MyApplication3/app/build/intermediates/res/merged/debug/layout_header.xml.flat",
+        "source": "/home/sts/AndroidStudioProjects/MyApplication3/app/src/main/res/layout/header.xml"
+    },
+    {
         "merged": "/home/sts/AndroidStudioProjects/MyApplication3/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4_abc_scrubber_control_to_pressed_mtrl_005.png.flat",
         "source": "/home/sts/.gradle/caches/transforms-2/files-2.1/ba6c7d6b36de818fe85b84bbaba5d8f9/res/drawable-xhdpi-v4/abc_scrubber_control_to_pressed_mtrl_005.png"
     },
@@ -1150,6 +1162,10 @@
     {
         "merged": "/home/sts/AndroidStudioProjects/MyApplication3/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4_abc_textfield_activated_mtrl_alpha.9.png.flat",
         "source": "/home/sts/.gradle/caches/transforms-2/files-2.1/ba6c7d6b36de818fe85b84bbaba5d8f9/res/drawable-xhdpi-v4/abc_textfield_activated_mtrl_alpha.9.png"
+    },
+    {
+        "merged": "/home/sts/AndroidStudioProjects/MyApplication3/app/build/intermediates/res/merged/debug/layout_footer.xml.flat",
+        "source": "/home/sts/AndroidStudioProjects/MyApplication3/app/src/main/res/layout/footer.xml"
     },
     {
         "merged": "/home/sts/AndroidStudioProjects/MyApplication3/app/build/intermediates/res/merged/debug/drawable_abc_ic_search_api_material.xml.flat",
@@ -1622,6 +1638,10 @@
     {
         "merged": "/home/sts/AndroidStudioProjects/MyApplication3/app/build/intermediates/res/merged/debug/drawable-hdpi-v4_abc_btn_switch_to_on_mtrl_00001.9.png.flat",
         "source": "/home/sts/.gradle/caches/transforms-2/files-2.1/ba6c7d6b36de818fe85b84bbaba5d8f9/res/drawable-hdpi-v4/abc_btn_switch_to_on_mtrl_00001.9.png"
+    },
+    {
+        "merged": "/home/sts/AndroidStudioProjects/MyApplication3/app/build/intermediates/res/merged/debug/layout_header_footer_layout.xml.flat",
+        "source": "/home/sts/AndroidStudioProjects/MyApplication3/app/src/main/res/layout/header_footer_layout.xml"
     },
     {
         "merged": "/home/sts/AndroidStudioProjects/MyApplication3/app/build/intermediates/res/merged/debug/drawable-hdpi-v4_abc_list_pressed_holo_light.9.png.flat",

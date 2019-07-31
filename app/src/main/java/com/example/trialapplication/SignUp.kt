@@ -110,6 +110,12 @@ class SignUp : AppCompatActivity(), AdapterView.OnItemSelectedListener {
         }else{
             errorMessage.text = ""
             Log.i("test", "pos ${textView_msg+phoneNo.text}")
+
+            // update current phone nomor yg sendang signup
+            val mPrefs = getSharedPreferences("label", 0)
+            val mEditor = mPrefs.edit()
+            mEditor.putString("currentSignUpPhoneNo", message).commit()
+
             startActivity(Intent(this, VerificationPage::class.java))
         }
 

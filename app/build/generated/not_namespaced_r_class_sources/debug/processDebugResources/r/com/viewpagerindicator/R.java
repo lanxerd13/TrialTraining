@@ -65,16 +65,16 @@ public final class R {
         public static final int default_title_indicator_selected_color = 0x7f040030;
         public static final int default_title_indicator_text_color = 0x7f040031;
         public static final int default_underline_indicator_selected_color = 0x7f040032;
-        public static final int vpi__background_holo_dark = 0x7f040064;
-        public static final int vpi__background_holo_light = 0x7f040065;
-        public static final int vpi__bright_foreground_disabled_holo_dark = 0x7f040066;
-        public static final int vpi__bright_foreground_disabled_holo_light = 0x7f040067;
-        public static final int vpi__bright_foreground_holo_dark = 0x7f040068;
-        public static final int vpi__bright_foreground_holo_light = 0x7f040069;
-        public static final int vpi__bright_foreground_inverse_holo_dark = 0x7f04006a;
-        public static final int vpi__bright_foreground_inverse_holo_light = 0x7f04006b;
-        public static final int vpi__dark_theme = 0x7f04006c;
-        public static final int vpi__light_theme = 0x7f04006d;
+        public static final int vpi__background_holo_dark = 0x7f040065;
+        public static final int vpi__background_holo_light = 0x7f040066;
+        public static final int vpi__bright_foreground_disabled_holo_dark = 0x7f040067;
+        public static final int vpi__bright_foreground_disabled_holo_light = 0x7f040068;
+        public static final int vpi__bright_foreground_holo_dark = 0x7f040069;
+        public static final int vpi__bright_foreground_holo_light = 0x7f04006a;
+        public static final int vpi__bright_foreground_inverse_holo_dark = 0x7f04006b;
+        public static final int vpi__bright_foreground_inverse_holo_light = 0x7f04006c;
+        public static final int vpi__dark_theme = 0x7f04006d;
+        public static final int vpi__light_theme = 0x7f04006e;
     }
     public static final class dimen {
         private dimen() {}
@@ -108,10 +108,10 @@ public final class R {
         private id() {}
 
         public static final int bottom = 0x7f070023;
-        public static final int none = 0x7f070075;
-        public static final int top = 0x7f0700c0;
-        public static final int triangle = 0x7f0700c2;
-        public static final int underline = 0x7f0700c3;
+        public static final int none = 0x7f07007c;
+        public static final int top = 0x7f0700c7;
+        public static final int triangle = 0x7f0700c9;
+        public static final int underline = 0x7f0700ca;
     }
     public static final class integer {
         private integer() {}

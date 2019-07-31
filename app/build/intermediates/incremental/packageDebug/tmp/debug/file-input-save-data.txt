@@ -1,7 +1,11 @@
 #Internal package file, do not edit.
-#Tue Jul 30 17:48:18 WIB 2019
+#Wed Jul 31 18:37:11 WIB 2019
+1.base=/home/sts/AndroidStudioProjects/MyApplication3/app/build/intermediates/merged_assets/debug/out
 0.baseType=DIRECTORY
-0.base=/home/sts/AndroidStudioProjects/MyApplication3/app/build/intermediates/dex/debug/mergeDexDebug/out
+1.baseType=DIRECTORY
+count=2
+1.set=ASSET
 0.path=classes.dex
 0.set=DEX
-count=1
+0.base=/home/sts/AndroidStudioProjects/MyApplication3/app/build/intermediates/dex/debug/mergeDexDebug/out
+1.path=fonts/fa-brands-400.ttf

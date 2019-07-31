@@ -76,6 +76,13 @@
                       style="@style/pin_edittext_style"/>
         </LinearLayout>
 
+        <TextView android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:gravity="center_horizontal"
+                  android:id="@+id/verificationErrorMessage"
+                  android:layout_gravity="center_horizontal"
+                  android:textColor="@color/colorAccent"/>
+
         <EditText android:id="@+id/pin_hidden_edittext"
                   android:layout_width="1dp"
                   android:layout_height="1dp"
@@ -97,13 +104,13 @@
               android:gravity="center_horizontal"
               android:layout_gravity="center_horizontal"
               android:layout_alignParentBottom="true" android:layout_marginBottom="139dp"
-              android:layout_centerHorizontal="true" android:onClick="resetTImer"/>
+              android:layout_centerHorizontal="true" android:onClick="resetTimer"/>
 
     <Button
-            android:text="Sign Up"
+            android:text="Verify"
             android:layout_width="299dp"
             android:layout_height="wrap_content"
-            android:textSize="24sp" android:onClick="Verification"
+            android:textSize="24sp" android:onClick="verification"
             android:gravity="center" android:layout_centerHorizontal="true" android:layout_alignParentBottom="true"
             android:layout_marginBottom="65dp"
             android:layout_marginTop="34dp" />

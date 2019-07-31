@@ -13,8 +13,11 @@ class SplashScreenActivity: AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         //set global variable
         val mPrefs = getSharedPreferences("label", 0)
+        Log.i("test","mPrefs $mPrefs")
         val mInt = mPrefs.getInt("opened", 0)
+        val loginStatus = mPrefs.getBoolean("loginStatus", false)
         Log.i("test","mInt $mInt")
+        Log.i("test","loginStatus $loginStatus")
 //        val mEditor = mPrefs.edit()
 //        mEditor.putInt("opened", mInt+1).commit()
 
@@ -26,7 +29,11 @@ class SplashScreenActivity: AppCompatActivity() {
                 startActivity(Intent(this, SliderOwn::class.java))
             }
             else{
-                startActivity(Intent(this, MainActivity::class.java))
+                if(loginStatus)
+//                    startActivity(Intent(this, MainActivity::class.java))
+                    startActivity(Intent(this, HomePage::class.java))
+                else
+                    startActivity(Intent(this, SignUp::class.java))
             }
 
             finish()

@@ -1,35 +1,26 @@
 package com.example.trialapplication
 
 import android.annotation.SuppressLint
-import android.os.Bundle
-import android.os.PersistableBundle
-import android.support.v7.app.AppCompatActivity
-import android.opengl.ETC1.getHeight
-import android.view.View.MeasureSpec
-import android.content.Context.LAYOUT_INFLATER_SERVICE
-import android.support.v4.content.ContextCompat.getSystemService
-import android.view.LayoutInflater
-import android.widget.LinearLayout
-import android.content.Context.INPUT_METHOD_SERVICE
-import android.widget.EditText
-import android.os.Build
-import android.graphics.drawable.Drawable
-import android.view.KeyEvent.KEYCODE_DEL
-import android.text.Editable
-import android.text.TextWatcher
-import android.view.View.OnFocusChangeListener
-import android.app.Activity
 import android.app.Service
 import android.content.Context
 import android.content.Intent
+import android.graphics.drawable.Drawable
+import android.os.Build
+import android.os.Bundle
 import android.os.CountDownTimer
+import android.support.v7.app.AppCompatActivity
+import android.text.Editable
+import android.text.InputType
+import android.text.TextWatcher
 import android.util.AttributeSet
 import android.util.Log
 import android.view.KeyEvent
-import android.view.MotionEvent
+import android.view.LayoutInflater
 import android.view.View
+import android.view.inputmethod.InputMethod
 import android.view.inputmethod.InputMethodManager
-import android.widget.Button
+import android.widget.EditText
+import android.widget.RelativeLayout
 import android.widget.TextView
 import java.util.*
 import java.util.concurrent.TimeUnit
@@ -38,12 +29,7 @@ import java.util.concurrent.TimeUnit
 class VerificationPage : AppCompatActivity(), View.OnFocusChangeListener, View.OnKeyListener, TextWatcher
 {
     private var isCancelled = false
-//    override fun onCreate(savedInstanceState: Bundle?) {
-//        super.onCreate(savedInstanceState)
-//        setContentView(R.layout.verification_page)
-//    }
 
-//    inner class MainActivity : Activity(), View.OnFocusChangeListener, View.OnKeyListener, TextWatcher {
         private var mPinFirstDigitEditText: EditText? = null
         private var mPinSecondDigitEditText: EditText? = null
         private var mPinThirdDigitEditText: EditText? = null
@@ -55,7 +41,8 @@ class VerificationPage : AppCompatActivity(), View.OnFocusChangeListener, View.O
 
         override fun afterTextChanged(s: Editable) {}
 
-        override fun beforeTextChanged(s: CharSequence, start: Int, count: Int, after: Int) {}
+        override fun beforeTextChanged(s: CharSequence, start: Int, count: Int, after: Int) {
+        }
 
         /**
          * Hides soft keyboard.
@@ -73,26 +60,27 @@ class VerificationPage : AppCompatActivity(), View.OnFocusChangeListener, View.O
         public override fun onCreate(savedInstanceState: Bundle?) {
             super.onCreate(savedInstanceState)
             setContentView(R.layout.verification_page)
+//            setContentView(MainLayout(this, null))
 
             init()
             setPINListeners()
             countdownTimer()
-
-            resendButton!!.setOnClickListener{
-                // Start the timer
-                isCancelled = true
-//                it.isEnabled = false
-//                button_start.isEnabled = true
-            }
+//            inner class MainLayout(context: Context, ""et) {
+//            resendButton!!.setOnClickListener{
+//                // Start the timer
+//                isCancelled = true
+////                button_start.isEnabled = true
+//            }
         }
 
         private fun countdownTimer(){
             val minute:Long = 1000 * 60 // 1000 milliseconds = 1 second
-            val millisInFuture:Long = (minute * 5)
+            val millisInFuture:Long = (minute /12 + 1)
             val countDownInterval:Long = 1000
 
             timer(millisInFuture,countDownInterval).start()
             isCancelled = false
+            resendButton!!.isEnabled = false
 
 //            button_start.setOnClickListener{
 //                // Start the timer
@@ -107,28 +95,26 @@ class VerificationPage : AppCompatActivity(), View.OnFocusChangeListener, View.O
         private fun timer(millisInFuture:Long,countDownInterval:Long): CountDownTimer {
             return object: CountDownTimer(millisInFuture,countDownInterval){
                 override fun onTick(millisUntilFinished: Long){
-                    val timeRemaining = timeString(millisUntilFinished)
+                    val time = timeString(millisUntilFinished)
                     if (isCancelled){
                         cancel()
                         isCancelled = false
 //                        countdownTimerText!!.text = ""
                         countdownTimer()
                     }else{
-                        countdownTimerText!!.text = timeRemaining
+                        countdownTimerText!!.text = time
                     }
                 }
 
                 override fun onFinish() {
-                    countdownTimerText!!.text = "Done"
-
-//                    button_start.isEnabled = true
+                    countdownTimerText!!.text = String.format(Locale.getDefault(), "%02d: %02d",0,0)
+                    resendButton!!.isEnabled = true
 //                    button_stop.isEnabled = false
                 }
             }
         }
 
         private fun timeString(millisUntilFinished:Long):String{
-            Log.i("test","masuk timer string")
             var millisUntilFinished:Long = millisUntilFinished
             val days = TimeUnit.MILLISECONDS.toDays(millisUntilFinished)
             millisUntilFinished -= TimeUnit.DAYS.toMillis(days)
@@ -150,9 +136,13 @@ class VerificationPage : AppCompatActivity(), View.OnFocusChangeListener, View.O
             )
         }
 
-        private fun resetTImer(view : View){
-            Log.i("test","masuk reset timer")
-            countdownTimer()
+        fun resetTimer(view : View){
+            if(countdownTimerText!!.text == String.format(Locale.getDefault(), "%02d: %02d",0,0)){
+                isCancelled = false
+                countdownTimer()
+            }else {
+                isCancelled = true
+            }
         }
         /**
          * Initialize EditText fields.
@@ -169,14 +159,28 @@ class VerificationPage : AppCompatActivity(), View.OnFocusChangeListener, View.O
             resendButton = findViewById<TextView>(R.id.resend)
         }
 
-//    fun signUp(view: View) {
-//        private var mPinFirstDigitEditText: EditText? = null
-//        private var mPinSecondDigitEditText: EditText? = null
-//        private var mPinThirdDigitEditText: EditText? = null
-//        private var mPinForthDigitEditText: EditText? = null
-//        private var mPinFifthDigitEditText: EditText? = null
-//        private var mPinHiddenEditText: EditText? = null
-//
+    fun verification(view: View) {
+        Log.i("test","mPinHiddenEditText text ${mPinHiddenEditText?.text}")
+
+        if(mPinHiddenEditText?.text.toString() != "12345"){
+            var verificationErrorMessage = findViewById<TextView>(R.id.verificationErrorMessage)
+            verificationErrorMessage.text = "Verifikasi yang dimasukan salah"
+        }else {
+            // menarik data cache
+            val mPrefs = getSharedPreferences("label", 0)
+            Log.i("test","mprefs $mPrefs")
+            val mInt = mPrefs.getInt("opened", 0)
+            Log.i("test","mprefs $mInt")
+
+            // update no hp yg sedang login, status login, dan jumlah applikasi pernah login
+            val mEditor = mPrefs.edit()
+            mEditor.putString("currentLoginPhoneNo", mPrefs.getString("currentSignUpPhoneNo", "")).commit()
+            mEditor.putBoolean("loginStatus", true).commit()
+            mEditor.putInt("opened", mInt+1).commit()
+
+            startActivity(Intent(this, HomePage::class.java))
+        }
+
 //        val phoneNo = findViewById<EditText>(R.id.handphoneNo)
 //        val countrySpinner = findViewById<TextView>(R.id.errorMessage)
 //        val errorMessage = findViewById<TextView>(R.id.errorMessage)
@@ -192,16 +196,15 @@ class VerificationPage : AppCompatActivity(), View.OnFocusChangeListener, View.O
 //            Log.i("test", "pos ${textView_msg+phoneNo.text}")
 //            startActivity(Intent(this, VerificationPage::class.java))
 //        }
-
-
+//
+//
 //        Log.i("test","message ${message.intOrString()}")
-
+//
 //        startActivity(Intent(this, MainActivity::class.java))
-//    }
+    }
 
 
         override fun onFocusChange(v: View, hasFocus: Boolean) {
-            Log.i("test","masuk on focus change ??")
             val id = v.getId()
             when (id) {
                 R.id.pin_first_edittext -> if (hasFocus) {
@@ -234,24 +237,23 @@ class VerificationPage : AppCompatActivity(), View.OnFocusChangeListener, View.O
         }
 
         override fun onKey(v: View, keyCode: Int, event: KeyEvent): Boolean {
-            Log.i("test","masuk on key")
             if (event.getAction() === KeyEvent.ACTION_DOWN) {
                 val id = v.getId()
-                Log.i("test","test $id")
                 when (id) {
                     R.id.pin_hidden_edittext -> if (keyCode == KeyEvent.KEYCODE_DEL) {
-                        if (mPinHiddenEditText!!.text.length == 5)
+                        if (mPinHiddenEditText!!.text.length == 5) {
                             mPinFifthDigitEditText!!.setText("")
-                        else if (mPinHiddenEditText!!.text.length == 4)
+                        }else if (mPinHiddenEditText!!.text.length == 4) {
                             mPinForthDigitEditText!!.setText("")
-                        else if (mPinHiddenEditText!!.text.length == 3)
+                        }else if (mPinHiddenEditText!!.text.length == 3) {
                             mPinThirdDigitEditText!!.setText("")
-                        else if (mPinHiddenEditText!!.text.length == 2)
+                        }else if (mPinHiddenEditText!!.text.length == 2) {
                             mPinSecondDigitEditText!!.setText("")
-                        else if (mPinHiddenEditText!!.text.length == 1)
+                        }else if (mPinHiddenEditText!!.text.length == 1) {
                             mPinFirstDigitEditText!!.setText("")
+                        }
 
-                        if (mPinHiddenEditText!!.length() > 0)
+                        if (mPinHiddenEditText!!.length() > 0) {
                             mPinHiddenEditText!!.setText(
                                 mPinHiddenEditText!!.text.subSequence(
                                     0,
@@ -259,18 +261,20 @@ class VerificationPage : AppCompatActivity(), View.OnFocusChangeListener, View.O
                                 )
                             )
 
+                            //solving bug supaya bila angka yg diinput maka angka tidak berubah bila dihapus
+                            mPinHiddenEditText!!.post(Runnable { mPinHiddenEditText!!.setSelection(mPinHiddenEditText!!.text.toString().length) })
+                        }
+
                         return true
                     }
-
                     else -> return false
                 }
             }
-
             return false
         }
 
         override fun onTextChanged(s: CharSequence, start: Int, before: Int, count: Int) {
-            Log.i("test","masuk on text changed")
+
             setDefaultPinBackground(mPinFirstDigitEditText)
             setDefaultPinBackground(mPinSecondDigitEditText)
             setDefaultPinBackground(mPinThirdDigitEditText)
@@ -326,7 +330,6 @@ class VerificationPage : AppCompatActivity(), View.OnFocusChangeListener, View.O
          * @param editText edit text to change
          */
         private fun setFocusedPinBackground(editText: EditText?) {
-            Log.i("test","masuk sini?")
             editText!!.background = resources.getDrawable(R.drawable.textfield_focused_holo)
 //            setViewBackground(editText, resources.getDrawable(R.drawable.textfield_focused_holo_light))
         }
@@ -334,9 +337,8 @@ class VerificationPage : AppCompatActivity(), View.OnFocusChangeListener, View.O
         /**
          * Sets listeners for EditText fields.
          */
-        @SuppressLint("ClickableViewAccessibility")
+
         private fun setPINListeners() {
-            Log.i("test","masuk on pin listener")
             mPinHiddenEditText!!.addTextChangedListener(this)
 
             mPinFirstDigitEditText!!.setOnFocusChangeListener(this)
@@ -354,15 +356,7 @@ class VerificationPage : AppCompatActivity(), View.OnFocusChangeListener, View.O
 
             mPinFirstDigitEditText!!.setOnTouchListener{ v, event ->
                 if (event.action ==  KeyEvent.ACTION_UP) {
-                    Log.i("test"," ${event.action} ")
-                    Log.i("test"," ${KeyEvent.ACTION_UP} ")
-                    Log.i("test"," ${mPinFirstDigitEditText!!.text} ")
-                    Log.i("test"," ${mPinFirstDigitEditText!!.text.toString()}  ")
-                    Log.i("test"," ${mPinFirstDigitEditText!!.text.toString() == ""}  ")
-                    Log.i("test"," ${mPinFirstDigitEditText!!.text.toString() === ""}  ")
-                    Log.i("test"," ${mPinFirstDigitEditText!!.text.toString() === null}  ")
                     if(mPinFirstDigitEditText!!.text.toString() == ""){
-                        Log.i("test" , "masik sini")
                         setFocusedPinBackground(mPinFirstDigitEditText)
                     }
                 }
@@ -396,16 +390,18 @@ class VerificationPage : AppCompatActivity(), View.OnFocusChangeListener, View.O
         fun showSoftKeyboard(editText: EditText?) {
             if (editText == null)
                 return
-
+            editText.setInputType(InputType.TYPE_CLASS_NUMBER)
             val imm = getSystemService(Service.INPUT_METHOD_SERVICE) as InputMethodManager
-            imm.showSoftInput(editText, 0)
+//            imm.showSoftInput(editText, 0)
+            imm.showSoftInput(editText, InputMethodManager.SHOW_FORCED)
         }
 
         /**
          * Custom LinearLayout with overridden onMeasure() method
          * for handling software keyboard show and hide events.
          */
-//        inner class MainLayout(context: Context, attributeSet: AttributeSet) : LinearLayout(context, attributeSet) {
+//        inner class MainLayout(context: Context, attributeSet : AttributeSet? ) : RelativeLayout(context,attributeSet) {
+//
 //
 //            init {
 //                val inflater = context.getSystemService(Context.LAYOUT_INFLATER_SERVICE) as LayoutInflater
@@ -415,8 +411,6 @@ class VerificationPage : AppCompatActivity(), View.OnFocusChangeListener, View.O
 //            override fun onMeasure(widthMeasureSpec: Int, heightMeasureSpec: Int) {
 //                val proposedHeight = MeasureSpec.getSize(heightMeasureSpec)
 //                val actualHeight = height
-//
-//                Log.d("TAG", "proposed: $proposedHeight, actual: $actualHeight")
 //
 //                if (actualHeight >= proposedHeight) {
 //                    // Keyboard is shown

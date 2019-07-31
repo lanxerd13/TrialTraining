@@ -19,8 +19,13 @@
         <item name="android:cursorVisible">false</item>
         <item name="android:maxLength">1</item>
         <item name="android:minEms">2</item>
+        <!--<item name="android:textAllCaps">true</item>-->
         <!--<item name="android:inputType">textPassword</item>-->
         <item name="android:focusable">true</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:maxLines">1</item>
+        <item name="android:lines">1</item>
+        <item name="android:inputType">number</item>
         <item name="android:focusableInTouchMode">true</item>
         <item name="android:background">@drawable/textfield_default_holo_light</item>
     </style>

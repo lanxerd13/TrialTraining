@@ -52,6 +52,7 @@
             android:layout_toRightOf="@+id/countrySpinner"
             android:textCursorDrawable="@null"
             android:backgroundTint="@color/colorPrimaryDark"
+            android:inputType="number"
             android:singleLine="true"/>
 
     <Button

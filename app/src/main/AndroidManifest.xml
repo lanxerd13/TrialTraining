@@ -25,6 +25,7 @@
         <activity android:name=".SliderOwn" android:theme="@style/AppTheme.NoActionBar"/>
         <activity android:name=".SignUp" android:theme="@style/AppTheme.NoActionBar"/>
         <activity android:name=".VerificationPage" android:theme="@style/AppTheme.NoActionBar"/>
+        <activity android:name=".HomePage" android:theme="@style/AppTheme.NoActionBar"/>
 
     </application>
 

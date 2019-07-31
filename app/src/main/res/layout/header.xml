@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+        xmlns:app="http://schemas.android.com/apk/res-auto" android:id="@+id/header"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:background="@color/headerColor"
+        xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <SearchView
+            android:layout_width="221dp"
+            android:layout_height="37dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="5dp"
+            android:id="@+id/headerSearchBar"
+            android:background="@color/white"
+            android:iconifiedByDefault="false"
+            android:queryHint="Cari di Part Station"
+            android:queryBackground="@null"
+            android:focusable="false"/>
+
+    <TextView
+            android:id="@+id/font_awesome_cubes_icon"
+            android:layout_width="130dp"
+            android:layout_height="106dp"
+            android:gravity="center_horizontal"
+            android:text="@string/font_awesome_cubes_icon"
+            android:textColor="@color/white" android:layout_alignParentEnd="true" android:layout_alignParentTop="true"
+            android:layout_marginEnd="44dp"/>
+
+    <!--<com.example.trialapplication.Fontawesome-->
+            <!--android:id="@+id/userLogin"-->
+            <!--android:text="&#xf007;  Login Now"-->
+            <!--android:clickable="true"-->
+            <!--android:onClick="login"-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content" />-->
+
+</RelativeLayout>

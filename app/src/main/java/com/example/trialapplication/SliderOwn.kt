@@ -33,7 +33,7 @@ class SliderOwn : AppCompatActivity() {
         setContentView(R.layout.slider_own)
 //        sliderView = findViewById(R.id.sliderView) as SliderView
         sliderView = findViewById(R.id.sliderView) as ViewPager
-        Log.i("test","$sliderView")
+//        Log.i("test","$sliderView")
         mLinearLayout = findViewById(R.id.pagesContainer) as LinearLayout
         setupSlider()
     }

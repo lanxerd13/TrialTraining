@@ -454,6 +454,7 @@ color error_color_material_dark
 color error_color_material_light
 color foreground_material_dark
 color foreground_material_light
+color headerColor
 color highlighted_text_material_dark
 color highlighted_text_material_light
 color indicatorNormal
@@ -505,6 +506,7 @@ color vpi__bright_foreground_inverse_holo_dark
 color vpi__bright_foreground_inverse_holo_light
 color vpi__dark_theme
 color vpi__light_theme
+color white
 color yellow
 dimen abc_action_bar_content_inset_material
 dimen abc_action_bar_content_inset_with_nav
@@ -861,6 +863,8 @@ id expanded_menu
 id fill
 id fill_horizontal
 id fill_vertical
+id font_awesome_cubes_icon
+id footer
 id forever
 id glide_custom_view_target_tag
 id gone
@@ -870,8 +874,13 @@ id groups
 id guideline
 id guideline2
 id handphoneNo
+id header
+id headerSearchBar
 id home
 id homeAsUp
+id homeImg
+id homePageContainer
+id homeSliderView
 id horizontal_cycle
 id icon
 id icon_group
@@ -984,6 +993,7 @@ id underline
 id uniform
 id up
 id useLogo
+id verificationErrorMessage
 id viewPagerOther
 id viewpager
 id withText
@@ -1035,6 +1045,11 @@ layout activity_slider_other_again_layout
 layout activity_splash
 layout activity_splash_text
 layout country_spinner
+layout footer
+layout header
+layout header_footer_layout
+layout home_page
+layout home_page_item
 layout indicator_item
 layout indicators_view
 layout infi_slider
@@ -1100,6 +1115,8 @@ string abc_shareactionprovider_share_with_application
 string abc_toolbar_collapse_description
 string app_name
 string appbar_scrolling_view_behavior
+string font_awesome_cubes_icon
+string icon_heart
 string pin_content_desc
 string pin_label_text
 string search_menu_title
