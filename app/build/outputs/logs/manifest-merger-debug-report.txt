@@ -84,7 +84,7 @@ MERGED from [com.github.bumptech.glide:gifdecoder:4.9.0] /home/sts/.gradle/cache
 activity#com.example.trialapplication.SplashScreenActivity
 ADDED from /home/sts/AndroidStudioProjects/MyApplication3/app/src/main/AndroidManifest.xml:12:9-18:20
 	android:theme
-		ADDED from /home/sts/AndroidStudioProjects/MyApplication3/app/src/main/AndroidManifest.xml:13:19-62
+		ADDED from /home/sts/AndroidStudioProjects/MyApplication3/app/src/main/AndroidManifest.xml:13:19-61
 	android:name
 		ADDED from /home/sts/AndroidStudioProjects/MyApplication3/app/src/main/AndroidManifest.xml:12:19-55
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
@@ -102,33 +102,33 @@ ADDED from /home/sts/AndroidStudioProjects/MyApplication3/app/src/main/AndroidMa
 	android:name
 		ADDED from /home/sts/AndroidStudioProjects/MyApplication3/app/src/main/AndroidManifest.xml:19:19-47
 activity#com.example.trialapplication.SplashScreenTextActivity
-ADDED from /home/sts/AndroidStudioProjects/MyApplication3/app/src/main/AndroidManifest.xml:20:9-105
+ADDED from /home/sts/AndroidStudioProjects/MyApplication3/app/src/main/AndroidManifest.xml:20:9-104
 	android:theme
-		ADDED from /home/sts/AndroidStudioProjects/MyApplication3/app/src/main/AndroidManifest.xml:20:60-103
+		ADDED from /home/sts/AndroidStudioProjects/MyApplication3/app/src/main/AndroidManifest.xml:20:60-102
 	android:name
 		ADDED from /home/sts/AndroidStudioProjects/MyApplication3/app/src/main/AndroidManifest.xml:20:19-59
 activity#com.example.trialapplication.Slider
-ADDED from /home/sts/AndroidStudioProjects/MyApplication3/app/src/main/AndroidManifest.xml:21:9-87
+ADDED from /home/sts/AndroidStudioProjects/MyApplication3/app/src/main/AndroidManifest.xml:21:9-86
 	android:theme
-		ADDED from /home/sts/AndroidStudioProjects/MyApplication3/app/src/main/AndroidManifest.xml:21:42-85
+		ADDED from /home/sts/AndroidStudioProjects/MyApplication3/app/src/main/AndroidManifest.xml:21:42-84
 	android:name
 		ADDED from /home/sts/AndroidStudioProjects/MyApplication3/app/src/main/AndroidManifest.xml:21:19-41
 activity#com.example.trialapplication.Slider_other
-ADDED from /home/sts/AndroidStudioProjects/MyApplication3/app/src/main/AndroidManifest.xml:22:9-93
+ADDED from /home/sts/AndroidStudioProjects/MyApplication3/app/src/main/AndroidManifest.xml:22:9-92
 	android:theme
-		ADDED from /home/sts/AndroidStudioProjects/MyApplication3/app/src/main/AndroidManifest.xml:22:48-91
+		ADDED from /home/sts/AndroidStudioProjects/MyApplication3/app/src/main/AndroidManifest.xml:22:48-90
 	android:name
 		ADDED from /home/sts/AndroidStudioProjects/MyApplication3/app/src/main/AndroidManifest.xml:22:19-47
 activity#com.example.trialapplication.Slider_other_again
-ADDED from /home/sts/AndroidStudioProjects/MyApplication3/app/src/main/AndroidManifest.xml:23:9-99
+ADDED from /home/sts/AndroidStudioProjects/MyApplication3/app/src/main/AndroidManifest.xml:23:9-98
 	android:theme
-		ADDED from /home/sts/AndroidStudioProjects/MyApplication3/app/src/main/AndroidManifest.xml:23:54-97
+		ADDED from /home/sts/AndroidStudioProjects/MyApplication3/app/src/main/AndroidManifest.xml:23:54-96
 	android:name
 		ADDED from /home/sts/AndroidStudioProjects/MyApplication3/app/src/main/AndroidManifest.xml:23:19-53
 activity#com.example.trialapplication.InfiSlider
-ADDED from /home/sts/AndroidStudioProjects/MyApplication3/app/src/main/AndroidManifest.xml:24:9-91
+ADDED from /home/sts/AndroidStudioProjects/MyApplication3/app/src/main/AndroidManifest.xml:24:9-90
 	android:theme
-		ADDED from /home/sts/AndroidStudioProjects/MyApplication3/app/src/main/AndroidManifest.xml:24:46-89
+		ADDED from /home/sts/AndroidStudioProjects/MyApplication3/app/src/main/AndroidManifest.xml:24:46-88
 	android:name
 		ADDED from /home/sts/AndroidStudioProjects/MyApplication3/app/src/main/AndroidManifest.xml:24:19-45
 activity#com.example.trialapplication.SliderOwn
@@ -150,9 +150,9 @@ ADDED from /home/sts/AndroidStudioProjects/MyApplication3/app/src/main/AndroidMa
 	android:name
 		ADDED from /home/sts/AndroidStudioProjects/MyApplication3/app/src/main/AndroidManifest.xml:27:19-51
 activity#com.example.trialapplication.HomePage
-ADDED from /home/sts/AndroidStudioProjects/MyApplication3/app/src/main/AndroidManifest.xml:28:9-89
+ADDED from /home/sts/AndroidStudioProjects/MyApplication3/app/src/main/AndroidManifest.xml:28:9-88
 	android:theme
-		ADDED from /home/sts/AndroidStudioProjects/MyApplication3/app/src/main/AndroidManifest.xml:28:44-87
+		ADDED from /home/sts/AndroidStudioProjects/MyApplication3/app/src/main/AndroidManifest.xml:28:44-86
 	android:name
 		ADDED from /home/sts/AndroidStudioProjects/MyApplication3/app/src/main/AndroidManifest.xml:28:19-43
 uses-sdk

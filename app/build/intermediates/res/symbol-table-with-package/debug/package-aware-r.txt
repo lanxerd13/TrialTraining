@@ -454,7 +454,7 @@ color error_color_material_dark
 color error_color_material_light
 color foreground_material_dark
 color foreground_material_light
-color headerColor
+color headerFooterColor
 color highlighted_text_material_dark
 color highlighted_text_material_light
 color indicatorNormal
@@ -496,6 +496,7 @@ color switch_thumb_normal_material_dark
 color switch_thumb_normal_material_light
 color tooltip_background_dark
 color tooltip_background_light
+color verticalSeparatorLineColor
 color vpi__background_holo_dark
 color vpi__background_holo_light
 color vpi__bright_foreground_disabled_holo_dark
@@ -739,6 +740,7 @@ drawable backtext
 drawable benz2
 drawable bg_indicator
 drawable bikess
+drawable divider
 drawable edittextstyle
 drawable harley2
 drawable i4808001
@@ -747,6 +749,7 @@ drawable i60010241
 drawable i64011361
 drawable i72012801
 drawable i72012802
+drawable ic__ionicons_svg_md_notifications
 drawable ic_indicator
 drawable ic_launcher_background
 drawable ic_launcher_foreground
@@ -863,7 +866,6 @@ id expanded_menu
 id fill
 id fill_horizontal
 id fill_vertical
-id font_awesome_cubes_icon
 id footer
 id forever
 id glide_custom_view_target_tag
@@ -883,6 +885,7 @@ id homePageContainer
 id homeSliderView
 id horizontal_cycle
 id icon
+id icon1
 id icon_group
 id ifRoom
 id image
@@ -907,6 +910,13 @@ id line3
 id linearlayout
 id listMode
 id list_item
+id menu1
+id menu2
+id menuFooter1
+id menuFooter2
+id menuFooter3
+id menuFooter4
+id menuFooter5
 id message
 id middle
 id multiply
@@ -916,6 +926,7 @@ id normal
 id notification_background
 id notification_main_column
 id notification_main_column_container
+id orderNowText
 id packed
 id pager
 id pagesContainer
@@ -1121,12 +1132,14 @@ string pin_content_desc
 string pin_label_text
 string search_menu_title
 string status_bar_notification_info_overflow
+string test
 style AlertDialog_AppCompat
 style AlertDialog_AppCompat_Light
 style Animation_AppCompat_Dialog
 style Animation_AppCompat_DropDownUp
 style Animation_AppCompat_Tooltip
 style AppTheme
+style AppTheme_FullScreen
 style AppTheme_NoActionBar
 style Base_AlertDialog_AppCompat
 style Base_AlertDialog_AppCompat_Light

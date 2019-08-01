@@ -28,7 +28,7 @@ class HomePage : AppCompatActivity() {
 //        Log.i("test","font $font")
 ////        var fontAwesomeFont = createFromAsset(getAssets(), "fa-brands-400.ttf") as Typeface
 //
-        var button = findViewById( R.id.font_awesome_cubes_icon ) as TextView
+        var button = findViewById( R.id.menu1 ) as TextView
 //        Log.i("test","button $button")
 ////        button.setTypeface(font)
 ////        button.setTypeface(FontTypeface.get("FontAwesome.otf", context))

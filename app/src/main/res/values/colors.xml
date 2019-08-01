@@ -5,6 +5,7 @@
     <color name="colorAccent">#D81B1E</color>
     <color name="blue">#00FFFF</color>
     <color name="yellow">#FFE600</color>
-    <color name="headerColor">#FF3E8483</color>
+    <color name="headerFooterColor">#FF3E8483</color>
     <color name="white">#FDFDFD</color>
+    <color name="verticalSeparatorLineColor">#EAE9E9</color>
 </resources>

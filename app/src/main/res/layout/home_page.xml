@@ -17,8 +17,11 @@
             android:layout_height="match_parent"
             android:layout_above="@id/footer"
             android:layout_below="@id/header">
-        <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content"
-                      android:orientation="vertical">
+        <LinearLayout android:layout_width="match_parent"
+                      android:layout_height="match_parent"
+                      android:orientation="vertical"
+                      android:layout_weight="1"
+                        android:paddingBottom="1dp">
 
             <FrameLayout
                     android:layout_width="match_parent"
@@ -37,8 +40,109 @@
                         android:gravity="center_horizontal"
                         android:orientation="horizontal"/>
             </FrameLayout>
+            <View android:layout_width="wrap_content"
+                  android:layout_height="3dp"
+                  android:background="@color/verticalSeparatorLineColor"
+                  android:layout_gravity="center_vertical"
+                  android:layout_marginTop="5dp"
+                  android:layout_marginBottom="5dp" />
+            <RelativeLayout android:layout_width="match_parent"
+                                android:layout_height="wrap_content">
+                <LinearLayout android:layout_width="290dp"
+                              android:layout_height="34dp"
+                              android:orientation="horizontal"
+                              android:id="@+id/line1">
+
+                    <TextView
+                            android:text="Order Now"
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:id="@+id/orderNowText"
+                            android:layout_weight="1"
+                            android:textSize="14dp"
+                            android:gravity="right|center"
+                            android:textColor="@color/headerFooterColor"/>
+                    <TextView
+                            android:text=" || "
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1"
+                            android:textSize="14dp"
+                            android:gravity="center"
+                            android:textColor="@color/headerFooterColor"/>
+                    <TextView
+                            android:text="(Status Order)"
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1"
+                            android:textSize="14dp"
+                            android:gravity="left|center"
+                            android:textColor="@color/headerFooterColor"/>
+
+                </LinearLayout>
+                <com.example.trialapplication.FontAwesome
+                        android:id="@+id/icon1"
+                        android:text="@string/test"
+                        android:textSize="35sp"
+                        android:textColor="@color/headerFooterColor"
+                        android:layout_width="wrap_content"
+                        android:layout_height="37dp"
+                        android:layout_marginStart="188dp"
+                        android:gravity="center"
+                        android:layout_marginEnd="20dp"
+                        android:layout_alignParentEnd="true"
+                        />
+            </RelativeLayout>
+            <View android:layout_width="match_parent"
+                  android:layout_height="3dp"
+                  android:background="@color/verticalSeparatorLineColor"
+                  android:layout_gravity="center_vertical"
+                  android:layout_marginTop="5dp"/>
+            <!--<View android:layout_width="3dp"-->
+                  <!--android:layout_height="37dp"-->
+                  <!--android:background="@color/verticalSeparatorLineColor"-->
+                  <!--android:layout_gravity="center"-->
+            <!--/>-->
+            <LinearLayout android:layout_width="match_parent"
+                          android:layout_height="400dp"
+                          android:orientation="horizontal">
+
+                <TextView
+                        android:text="(Status Order)"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:textSize="14dp"
+                        android:gravity="left|center"
+                        android:textColor="@color/headerFooterColor"/>
+                <LinearLayout android:layout_width="wrap_content"
+                              android:layout_height="match_parent"
+                              android:orientation="horizontal">
+                    <View android:layout_width="3dp"
+                          android:layout_height="match_parent"
+                          android:background="@color/verticalSeparatorLineColor"
+                          android:gravity="center"
+                          android:layout_gravity="center"
+                          android:layout_weight="1"
+                    />
+                </LinearLayout>
+
+
+                <TextView
+                        android:text="(Status Order)"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:textSize="14dp"
+                        android:gravity="left|center"
+                        android:textColor="@color/headerFooterColor"/>
+
+            </LinearLayout>
+            <View android:layout_width="match_parent"
+                  android:layout_height="3dp"
+                  android:background="@color/verticalSeparatorLineColor"
+                  android:layout_gravity="center_vertical"
+                  android:layout_marginEnd="5dp"/>
         </LinearLayout>
     </ScrollView>
-
-
 </RelativeLayout>

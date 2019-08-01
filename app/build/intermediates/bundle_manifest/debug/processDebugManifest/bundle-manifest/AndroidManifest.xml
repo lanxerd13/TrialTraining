@@ -5,7 +5,7 @@
     android:versionName="1.0" >
 
     <uses-sdk
-        android:minSdkVersion="17"
+        android:minSdkVersion="19"
         android:targetSdkVersion="28" />
 
     <application
@@ -20,7 +20,7 @@
         android:theme="@style/AppTheme" >
         <activity
             android:name="com.example.trialapplication.SplashScreenActivity"
-            android:theme="@style/AppTheme.NoActionBar" >
+            android:theme="@style/AppTheme.FullScreen" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -30,19 +30,19 @@
         <activity android:name="com.example.trialapplication.MainActivity" />
         <activity
             android:name="com.example.trialapplication.SplashScreenTextActivity"
-            android:theme="@style/AppTheme.NoActionBar" />
+            android:theme="@style/AppTheme.FullScreen" />
         <activity
             android:name="com.example.trialapplication.Slider"
-            android:theme="@style/AppTheme.NoActionBar" />
+            android:theme="@style/AppTheme.FullScreen" />
         <activity
             android:name="com.example.trialapplication.Slider_other"
-            android:theme="@style/AppTheme.NoActionBar" />
+            android:theme="@style/AppTheme.FullScreen" />
         <activity
             android:name="com.example.trialapplication.Slider_other_again"
-            android:theme="@style/AppTheme.NoActionBar" />
+            android:theme="@style/AppTheme.FullScreen" />
         <activity
             android:name="com.example.trialapplication.InfiSlider"
-            android:theme="@style/AppTheme.NoActionBar" />
+            android:theme="@style/AppTheme.FullScreen" />
         <activity
             android:name="com.example.trialapplication.SliderOwn"
             android:theme="@style/AppTheme.NoActionBar" />
@@ -54,7 +54,7 @@
             android:theme="@style/AppTheme.NoActionBar" />
         <activity
             android:name="com.example.trialapplication.HomePage"
-            android:theme="@style/AppTheme.NoActionBar" />
+            android:theme="@style/AppTheme.FullScreen" />
     </application>
 
 </manifest>

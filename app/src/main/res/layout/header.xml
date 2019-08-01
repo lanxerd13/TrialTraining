@@ -1,10 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout
-        xmlns:app="http://schemas.android.com/apk/res-auto" android:id="@+id/header"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:id="@+id/header"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_alignParentTop="true"
-        android:background="@color/headerColor"
+        android:background="@color/headerFooterColor"
         xmlns:android="http://schemas.android.com/apk/res/android">
 
     <SearchView
@@ -21,20 +23,47 @@
             android:focusable="false"/>
 
     <TextView
-            android:id="@+id/font_awesome_cubes_icon"
-            android:layout_width="130dp"
-            android:layout_height="106dp"
-            android:gravity="center_horizontal"
+            android:id="@+id/menu1"
+            android:layout_width="wrap_content"
+            android:layout_height="34dp"
             android:text="@string/font_awesome_cubes_icon"
-            android:textColor="@color/white" android:layout_alignParentEnd="true" android:layout_alignParentTop="true"
-            android:layout_marginEnd="44dp"/>
+            android:textSize="35dp"
+            android:textColor="@color/white"
+            android:layout_marginStart="15dp"
+            android:layout_toEndOf="@+id/headerSearchBar"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="5dp"/>
 
-    <!--<com.example.trialapplication.Fontawesome-->
-            <!--android:id="@+id/userLogin"-->
-            <!--android:text="&#xf007;  Login Now"-->
-            <!--android:clickable="true"-->
-            <!--android:onClick="login"-->
+    <com.example.trialapplication.FontAwesome
+            android:id="@+id/menu2"
+            android:text="@string/test"
+            android:textSize="35dp"
+            android:textColor="@color/white"
+            android:layout_width="wrap_content"
+            android:layout_height="37dp"
+            android:layout_marginStart="10dp"
+            android:layout_toEndOf="@+id/menu1"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="5dp"/>
+
+    <!--<com.example.trialapplication.FontAwesome-->
+            <!--android:id="@+id/menu3"-->
+            <!--android:text="@string/test"-->
+            <!--android:textSize="35dp"-->
+            <!--android:textColor="@color/white"-->
             <!--android:layout_width="wrap_content"-->
-            <!--android:layout_height="wrap_content" />-->
+            <!--android:layout_height="37dp"-->
+            <!--android:layout_marginStart="4dp"-->
+            <!--android:layout_toEndOf="@+id/menu2"-->
+            <!--android:layout_marginTop="5dp"-->
+            <!--android:layout_marginBottom="5dp"/>-->
+
+    <ImageView
+            android:layout_height="37dp"
+            android:layout_width="35dp"
+            android:src="@drawable/ic__ionicons_svg_md_notifications" android:layout_toEndOf="@+id/menu2"
+            android:layout_marginStart="4dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="5dp"/>
 
 </RelativeLayout>

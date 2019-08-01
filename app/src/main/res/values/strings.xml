@@ -4,4 +4,5 @@
     <string name="pin_label_text">PIN</string>
     <string name="icon_heart">&#xf004;</string>
     <string name="font_awesome_cubes_icon">&#xf17b;</string>
+    <string name="test">&#xf17b;</string>
 </resources>
