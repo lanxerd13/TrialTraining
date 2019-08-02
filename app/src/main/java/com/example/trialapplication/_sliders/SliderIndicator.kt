@@ -12,7 +12,7 @@ import android.view.View
 import android.widget.LinearLayout
 import com.example.trialapplication.R
 
-class SliderIndicator(
+open class SliderIndicator(
     private val mContext: Context,
     private val mContainer: LinearLayout?,
     private val mViewPager: ViewPager,
@@ -92,7 +92,7 @@ class SliderIndicator(
 //        tabLayout.getTabAt(i).setCustomView(tv);
     }
 
-    private fun setIndicatorAsSelected(index: Int) {
+    fun setIndicatorAsSelected(index: Int) {
         if (mContainer == null) {
             return
         }
@@ -113,7 +113,7 @@ class SliderIndicator(
         Log.i("test","mPageCount $mPageCount")
         Log.i("test","position $position")
         setIndicatorAsSelected(index)
-        val moveTo = position + 1
+//        val moveTo = position + 1
     }
 
     override fun onPageScrollStateChanged(state: Int) {

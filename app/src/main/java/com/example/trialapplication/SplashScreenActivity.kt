@@ -8,7 +8,7 @@ import android.support.v7.app.AppCompatActivity
 import android.util.Log
 
 class SplashScreenActivity: AppCompatActivity() {
-    private val SPLASH_TIME_OUT:Long=3000
+    private val SPLASH_TIME_OUT:Long=5000
 
     override fun onCreate(savedInstanceState: Bundle?) {
         //set global variable
@@ -26,12 +26,12 @@ class SplashScreenActivity: AppCompatActivity() {
 
         Handler().postDelayed({
             if(mInt === 0) {
-                startActivity(Intent(this, SliderOwn::class.java))
+                startActivity(Intent(this, SliderOtherAgain::class.java))
             }
             else{
                 if(loginStatus)
 //                    startActivity(Intent(this, MainActivity::class.java))
-                    startActivity(Intent(this, HomePage::class.java))
+                    startActivity(Intent(this, HomePage::class.java).putExtra("prev","0"))
                 else
                     startActivity(Intent(this, SignUp::class.java))
             }

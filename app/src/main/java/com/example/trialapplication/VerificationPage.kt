@@ -1,6 +1,7 @@
 package com.example.trialapplication
 
 import android.annotation.SuppressLint
+import android.app.Activity
 import android.app.Service
 import android.content.Context
 import android.content.Intent
@@ -55,6 +56,12 @@ class VerificationPage : AppCompatActivity(), View.OnFocusChangeListener, View.O
 
             val imm = getSystemService(Service.INPUT_METHOD_SERVICE) as InputMethodManager
             imm.hideSoftInputFromWindow(editText.windowToken, 0)
+        }
+
+        override fun onBackPressed() {
+            startActivity(Intent(this, SignUp::class.java))
+            finish()
+            // do something
         }
 
         public override fun onCreate(savedInstanceState: Bundle?) {
@@ -178,7 +185,12 @@ class VerificationPage : AppCompatActivity(), View.OnFocusChangeListener, View.O
             mEditor.putBoolean("loginStatus", true).commit()
             mEditor.putInt("opened", mInt+1).commit()
 
-            startActivity(Intent(this, HomePage::class.java))
+//            startActivity(Intent(this, HomePage::class.java))
+
+            val intent = Intent(this, HomePage::class.java)
+            intent.putExtra("prev", "10")
+            startActivity(intent)
+            finish()
         }
 
 //        val phoneNo = findViewById<EditText>(R.id.handphoneNo)

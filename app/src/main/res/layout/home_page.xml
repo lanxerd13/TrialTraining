@@ -48,7 +48,7 @@
                   android:layout_marginBottom="5dp" />
             <RelativeLayout android:layout_width="match_parent"
                                 android:layout_height="wrap_content">
-                <LinearLayout android:layout_width="290dp"
+                <LinearLayout android:layout_width="200dp"
                               android:layout_height="34dp"
                               android:orientation="horizontal"
                               android:id="@+id/line1">
@@ -104,45 +104,131 @@
                   <!--android:layout_gravity="center"-->
             <!--/>-->
             <LinearLayout android:layout_width="match_parent"
-                          android:layout_height="400dp"
-                          android:orientation="horizontal">
-
-                <TextView
-                        android:text="(Status Order)"
+                          android:layout_height="wrap_content"
+                          android:orientation="horizontal"
+                          android:layout_weight="6">
+                <com.example.trialapplication.FontAwesome
+                        android:id="@+id/pointsIcon"
+                        android:text="@string/test"
+                        android:textSize="35sp"
+                        android:textColor="@color/headerFooterColor"
                         android:layout_width="wrap_content"
-                        android:layout_height="match_parent"
+                        android:layout_height="37dp"
                         android:layout_weight="1"
-                        android:textSize="14dp"
-                        android:gravity="left|center"
-                        android:textColor="@color/headerFooterColor"/>
+                        android:gravity="right|center"
+                />
+                <LinearLayout android:layout_width="wrap_content"
+                              android:layout_height="match_parent"
+                              android:orientation="vertical"
+                              android:layout_weight="1">
+                    <TextView
+                            android:text="Points"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textSize="14dp"
+                            android:gravity="left|center"
+                            android:textColor="@color/headerFooterColor"/>
+                    <TextView
+                            android:text="XX.XXX"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textSize="14dp"
+                            android:gravity="left|center"
+                            android:textColor="@color/headerFooterColor"/>
+                </LinearLayout>
+                <Space
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"/>
+                <!--</LinearLayout>-->
+
                 <LinearLayout android:layout_width="wrap_content"
                               android:layout_height="match_parent"
                               android:orientation="horizontal">
                     <View android:layout_width="3dp"
                           android:layout_height="match_parent"
                           android:background="@color/verticalSeparatorLineColor"
-                          android:gravity="center"
-                          android:layout_gravity="center"
-                          android:layout_weight="1"
+                          android:gravity="center_horizontal"
                     />
                 </LinearLayout>
-
-
-                <TextView
-                        android:text="(Status Order)"
+                <com.example.trialapplication.FontAwesome
+                        android:id="@+id/kuponIcon"
+                        android:text="@string/test"
+                        android:textSize="35sp"
+                        android:textColor="@color/headerFooterColor"
                         android:layout_width="wrap_content"
-                        android:layout_height="match_parent"
+                        android:layout_height="37dp"
                         android:layout_weight="1"
-                        android:textSize="14dp"
-                        android:gravity="left|center"
-                        android:textColor="@color/headerFooterColor"/>
-
+                        android:gravity="right|center"
+                />
+                <LinearLayout android:layout_width="wrap_content"
+                              android:layout_height="match_parent"
+                              android:orientation="vertical"
+                              android:layout_weight="1">
+                    <TextView
+                            android:text="Kupon"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textSize="14dp"
+                            android:gravity="left|center"
+                            android:textColor="@color/headerFooterColor"/>
+                    <TextView
+                            android:text="XX.XXX"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textSize="14dp"
+                            android:gravity="left|center"
+                            android:textColor="@color/headerFooterColor"/>
+                </LinearLayout>
+                <Space
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"/>
             </LinearLayout>
+
             <View android:layout_width="match_parent"
                   android:layout_height="3dp"
                   android:background="@color/verticalSeparatorLineColor"
                   android:layout_gravity="center_vertical"
                   android:layout_marginEnd="5dp"/>
+            <LinearLayout android:layout_width="match_parent"
+                          android:layout_height="match_parent"
+                          android:orientation="horizontal"
+                          android:layout_weight="5">
+                <Space
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"/>
+                <LinearLayout android:layout_width="wrap_content"
+                              android:layout_height="wrap_content"
+                              android:orientation="vertical"
+                              android:layout_weight="3">
+                    <TextView
+                            android:text="Kupon"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textSize="14dp"
+                            android:gravity="left|center"
+                            android:textColor="@color/headerFooterColor"/>
+                    <TextView
+                            android:text="XX.XXX"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textSize="14dp"
+                            android:gravity="left|center"
+                            android:textColor="@color/headerFooterColor"/>
+                </LinearLayout>
+                <com.example.trialapplication.FontAwesome
+                        android:id="@+id/unpaidIcon"
+                        android:text="@string/test"
+                        android:textSize="35sp"
+                        android:textColor="@color/headerFooterColor"
+                        android:layout_width="wrap_content"
+                        android:layout_height="37dp"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                />
+            </LinearLayout>
         </LinearLayout>
     </ScrollView>
 </RelativeLayout>

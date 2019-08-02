@@ -816,7 +816,6 @@ id action_mode_close_button
 id action_text
 id actions
 id activity_chooser_view_content
-id activity_main
 id add
 id alertTitle
 id all
@@ -903,6 +902,7 @@ id info
 id invisible
 id italic
 id item_touch_helper_previous_elevation
+id kuponIcon
 id layout_top
 id left
 id line1
@@ -941,10 +941,12 @@ id pin_hidden_edittext
 id pin_layout
 id pin_second_edittext
 id pin_third_edittext
+id pointsIcon
 id progress_circular
 id progress_horizontal
 id radio
 id relativeLayout
+id remember_me_switch
 id resend
 id right
 id right_icon
@@ -964,11 +966,13 @@ id search_plate
 id search_src_text
 id search_voice_btn
 id select_dialog_listview
+id share_button
 id shortcut
 id showCustom
 id showHome
 id showTitle
 id sliderView
+id slider_other_again
 id slider_own
 id spacer
 id split_action_bar
@@ -987,6 +991,7 @@ id tag_unhandled_key_event_manager
 id tag_unhandled_key_listeners
 id text
 id text2
+id textSkip
 id textSpacerNoButtons
 id textSpacerNoTitle
 id textView
@@ -1002,6 +1007,7 @@ id topPanel
 id triangle
 id underline
 id uniform
+id unpaidIcon
 id up
 id useLogo
 id verificationErrorMessage
@@ -1081,6 +1087,7 @@ layout slider_own
 layout slider_own_item
 layout slidingimages_layout
 layout support_simple_spinner_dropdown_item
+layout test
 layout verification_page
 layout viewpager_activity
 mipmap ic_launcher

@@ -1,4 +1,4 @@
-#Thu Aug 01 17:34:56 WIB 2019
+#Fri Aug 02 18:59:46 WIB 2019
 base.0=/home/sts/AndroidStudioProjects/MyApplication3/app/build/intermediates/dex/debug/mergeDexDebug/out
 path.0=classes.dex
 renamed.0=classes.dex

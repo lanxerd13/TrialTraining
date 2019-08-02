@@ -20,7 +20,7 @@
         <activity android:name=".SplashScreenTextActivity" android:theme="@style/AppTheme.FullScreen"/>
         <activity android:name=".Slider" android:theme="@style/AppTheme.FullScreen"/>
         <activity android:name=".Slider_other" android:theme="@style/AppTheme.FullScreen"/>
-        <activity android:name=".Slider_other_again" android:theme="@style/AppTheme.FullScreen"/>
+        <activity android:name=".SliderOtherAgain" android:theme="@style/AppTheme.NoActionBar"/>
         <activity android:name=".InfiSlider" android:theme="@style/AppTheme.FullScreen"/>
         <activity android:name=".SliderOwn" android:theme="@style/AppTheme.NoActionBar"/>
         <activity android:name=".SignUp" android:theme="@style/AppTheme.NoActionBar"/>

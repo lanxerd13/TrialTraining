@@ -119,12 +119,12 @@ ADDED from /home/sts/AndroidStudioProjects/MyApplication3/app/src/main/AndroidMa
 		ADDED from /home/sts/AndroidStudioProjects/MyApplication3/app/src/main/AndroidManifest.xml:22:48-90
 	android:name
 		ADDED from /home/sts/AndroidStudioProjects/MyApplication3/app/src/main/AndroidManifest.xml:22:19-47
-activity#com.example.trialapplication.Slider_other_again
-ADDED from /home/sts/AndroidStudioProjects/MyApplication3/app/src/main/AndroidManifest.xml:23:9-98
+activity#com.example.trialapplication.SliderOtherAgain
+ADDED from /home/sts/AndroidStudioProjects/MyApplication3/app/src/main/AndroidManifest.xml:23:9-97
 	android:theme
-		ADDED from /home/sts/AndroidStudioProjects/MyApplication3/app/src/main/AndroidManifest.xml:23:54-96
+		ADDED from /home/sts/AndroidStudioProjects/MyApplication3/app/src/main/AndroidManifest.xml:23:52-95
 	android:name
-		ADDED from /home/sts/AndroidStudioProjects/MyApplication3/app/src/main/AndroidManifest.xml:23:19-53
+		ADDED from /home/sts/AndroidStudioProjects/MyApplication3/app/src/main/AndroidManifest.xml:23:19-51
 activity#com.example.trialapplication.InfiSlider
 ADDED from /home/sts/AndroidStudioProjects/MyApplication3/app/src/main/AndroidManifest.xml:24:9-90
 	android:theme

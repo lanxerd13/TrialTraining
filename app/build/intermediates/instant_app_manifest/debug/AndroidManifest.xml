@@ -39,8 +39,8 @@
             android:name="com.example.trialapplication.Slider_other"
             android:theme="@style/AppTheme.FullScreen" />
         <activity
-            android:name="com.example.trialapplication.Slider_other_again"
-            android:theme="@style/AppTheme.FullScreen" />
+            android:name="com.example.trialapplication.SliderOtherAgain"
+            android:theme="@style/AppTheme.NoActionBar" />
         <activity
             android:name="com.example.trialapplication.InfiSlider"
             android:theme="@style/AppTheme.FullScreen" />

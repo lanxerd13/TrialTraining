@@ -5,8 +5,10 @@ import android.app.PendingIntent.getActivity
 import android.content.Context
 import android.content.Intent
 import android.os.Bundle
+import android.os.Handler
 import android.support.v4.view.ViewPager
 import android.support.v7.app.AppCompatActivity
+import android.text.Editable
 import android.util.Log
 import android.view.Gravity
 import android.view.KeyEvent
@@ -21,18 +23,30 @@ import android.widget.ArrayAdapter
 
 
 class SignUp : AppCompatActivity(), AdapterView.OnItemSelectedListener {
+
     var textView_msg:String? = null
 
     var list_of_items = arrayOf("+62", "+65", "+64")
+
+    override fun onBackPressed() {
+        startActivity(Intent(this, SliderOtherAgain::class.java))
+        overridePendingTransition( android.R.anim.slide_out_right, android.R.anim.slide_out_right)
+        finish()
+        // do something
+    }
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.sign_up_page)
 
+        val mPrefs = getSharedPreferences("label", 0)
         var imageView : ImageView = findViewById(R.id.imageViewSignUp) as ImageView
         var activity = getApplicationContext().getPackageName()
 //        var textView_msg =findViewById<TextView>(R.id.msg)
         var spinner: Spinner = findViewById<Spinner>(R.id.countrySpinner)
+        val phoneNo = findViewById<EditText>(R.id.handphoneNo)
+        val currentRegisteredPhoneNo = mPrefs.getString("currentSignUpPhoneNo", "")
+        phoneNo.setText(currentRegisteredPhoneNo)
 
         spinner!!.setOnItemSelectedListener(this)
 
@@ -55,7 +69,7 @@ class SignUp : AppCompatActivity(), AdapterView.OnItemSelectedListener {
 
 //            android:gravity="end"
         }
-        val phoneNo = findViewById<EditText>(R.id.handphoneNo)
+
         phoneNo.setOnKeyListener(View.OnKeyListener { v, keyCode, event ->
             if (keyCode == KeyEvent.KEYCODE_ENTER && event.action == KeyEvent.ACTION_UP) {
                 //Perform Code
@@ -102,10 +116,12 @@ class SignUp : AppCompatActivity(), AdapterView.OnItemSelectedListener {
         val errorMessage = findViewById<TextView>(R.id.errorMessage)
         val message = phoneNo.text.toString()
         Log.i("test","message $message")
-        Log.i("test","message ${message.toIntOrNull()}")
+        Log.i("test","message ${message.length}")
+        Log.i("test","message ${message.toLongOrNull()}")
+        Log.i("test","message ${message.toLongOrNull(15)}")
 
         // validasi message harus angka
-        if(message.toIntOrNull() === null){
+        if(message.toLongOrNull() === null){
             errorMessage.text = "Nomor handphone tidak valid"
         }else{
             errorMessage.text = ""
@@ -117,6 +133,7 @@ class SignUp : AppCompatActivity(), AdapterView.OnItemSelectedListener {
             mEditor.putString("currentSignUpPhoneNo", message).commit()
 
             startActivity(Intent(this, VerificationPage::class.java))
+            finish()
         }
 
 

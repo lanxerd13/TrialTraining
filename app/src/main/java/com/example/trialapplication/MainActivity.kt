@@ -39,7 +39,7 @@ class MainActivity : AppCompatActivity() {
     }
 
     fun sliderOtherAgain(view: View) {
-        startActivity(Intent(this, Slider_other_again::class.java))
+        startActivity(Intent(this, SliderOtherAgain::class.java))
     }
 
     fun infiSlider(view: View) {
