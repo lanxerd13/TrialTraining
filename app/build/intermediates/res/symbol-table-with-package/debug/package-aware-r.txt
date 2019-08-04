@@ -11,6 +11,10 @@ anim abc_slide_out_bottom
 anim abc_slide_out_top
 anim abc_tooltip_enter
 anim abc_tooltip_exit
+anim slide_in_left
+anim slide_in_right
+anim slide_out_left
+anim slide_out_right
 attr actionBarDivider
 attr actionBarItemBackground
 attr actionBarPopupTheme

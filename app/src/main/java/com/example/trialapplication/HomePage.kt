@@ -33,7 +33,8 @@ class HomePage : AppCompatActivity() {
             super.onBackPressed()
         }else{
             if (doubleBackToExitPressedOnce) {
-                finish()
+                finishAffinity()
+//                finish()
             }
 
             this.doubleBackToExitPressedOnce = true

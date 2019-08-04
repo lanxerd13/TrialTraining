@@ -28,12 +28,12 @@ class SignUp : AppCompatActivity(), AdapterView.OnItemSelectedListener {
 
     var list_of_items = arrayOf("+62", "+65", "+64")
 
-    override fun onBackPressed() {
-        startActivity(Intent(this, SliderOtherAgain::class.java))
-        overridePendingTransition( android.R.anim.slide_out_right, android.R.anim.slide_out_right)
-        finish()
-        // do something
-    }
+//    override fun onBackPressed() {
+//        startActivity(Intent(this, SliderOtherAgain::class.java))
+////        overridePendingTransition(R.anim.slide_in_left,R.anim.slide_out_right)
+////        finish()
+//        // do something
+//    }
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)

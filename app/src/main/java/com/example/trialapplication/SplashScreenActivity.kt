@@ -8,7 +8,7 @@ import android.support.v7.app.AppCompatActivity
 import android.util.Log
 
 class SplashScreenActivity: AppCompatActivity() {
-    private val SPLASH_TIME_OUT:Long=5000
+    private val SPLASH_TIME_OUT:Long=3000
 
     override fun onCreate(savedInstanceState: Bundle?) {
         //set global variable

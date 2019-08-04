@@ -106,7 +106,7 @@ class SliderOtherAgain : AppCompatActivity() {
 
     fun skipToSighUp (view: View){
         startActivity(Intent(this, SignUp::class.java))
-        finish()
+//        finish()
     }
 
 

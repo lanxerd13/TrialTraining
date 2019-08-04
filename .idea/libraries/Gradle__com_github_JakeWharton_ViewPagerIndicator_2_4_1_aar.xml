@@ -1,8 +1,8 @@
 <component name="libraryTable">
   <library name="Gradle: com.github.JakeWharton:ViewPagerIndicator:2.4.1@aar">
     <CLASSES>
-      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/445de72664aefcb77e8b59334671c335/jars/classes.jar!/" />
-      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/445de72664aefcb77e8b59334671c335/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/f0db6d741d6f27f9659560beb6163346/res" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/f0db6d741d6f27f9659560beb6163346/jars/classes.jar!/" />
     </CLASSES>
     <JAVADOC />
     <SOURCES>

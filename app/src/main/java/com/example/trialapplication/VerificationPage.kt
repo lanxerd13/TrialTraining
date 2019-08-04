@@ -58,11 +58,12 @@ class VerificationPage : AppCompatActivity(), View.OnFocusChangeListener, View.O
             imm.hideSoftInputFromWindow(editText.windowToken, 0)
         }
 
-        override fun onBackPressed() {
-            startActivity(Intent(this, SignUp::class.java))
-            finish()
-            // do something
-        }
+//        override fun onBackPressed() {
+//            startActivity(Intent(this, SignUp::class.java))
+////            overridePendingTransition(R.anim.slide_in_left,R.anim.slide_out_right)
+////            finish()
+//            // do something
+//        }
 
         public override fun onCreate(savedInstanceState: Bundle?) {
             super.onCreate(savedInstanceState)

@@ -21,6 +21,10 @@ public final class R {
     public static final int abc_slide_out_top=0x7f010009;
     public static final int abc_tooltip_enter=0x7f01000a;
     public static final int abc_tooltip_exit=0x7f01000b;
+    public static final int slide_in_left=0x7f01000c;
+    public static final int slide_in_right=0x7f01000d;
+    public static final int slide_out_left=0x7f01000e;
+    public static final int slide_out_right=0x7f01000f;
   }
   public static final class attr {
     /**
