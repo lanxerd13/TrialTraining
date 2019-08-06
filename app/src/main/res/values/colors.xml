@@ -8,4 +8,5 @@
     <color name="headerFooterColor">#FF3E8483</color>
     <color name="white">#FDFDFD</color>
     <color name="verticalSeparatorLineColor">#EAE9E9</color>
+    <color name="grey">#B8B7B7</color>
 </resources>

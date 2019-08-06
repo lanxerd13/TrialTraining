@@ -1,0 +1,210 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:descendantFocusability="beforeDescendants"
+                android:focusableInTouchMode="true" >
+    <include layout="@layout/footer" />
+
+    <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_above="@id/footer">
+        <LinearLayout android:layout_width="match_parent"
+                      android:layout_height="match_parent"
+                      android:orientation="vertical"
+                      android:layout_weight="1"
+                      android:paddingBottom="1dp">
+            <TextView
+                    android:layout_marginTop="15dp"
+                    android:text="Nama Toko"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" android:id="@+id/addTokoNameText"/>
+            <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:inputType="textPersonName"
+                    android:id="@+id/addTokoName"
+                    android:ems="10"/>
+            <TextView
+                    android:layout_marginTop="10dp"
+                    android:text="Alamat Toko"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" android:id="@+id/addAlamatTokoText"/>
+            <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:inputType="textPersonName"
+                    android:id="@+id/addAlamatToko1"
+                    android:ems="10"/>
+            <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:inputType="textPersonName"
+                    android:id="@+id/addAlamatToko2"
+                    android:ems="10"/>
+            <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:inputType="textPersonName"
+                    android:id="@+id/addAlamatToko3"
+                    android:ems="10"/>
+            <TextView
+                    android:layout_marginTop="10dp"
+                    android:text="Provinsi"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" android:id="@+id/addProvinsiText"/>
+            <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:inputType="text"
+                    android:id="@+id/addProvinsi"
+                    android:ems="10"/>
+            <TextView
+                    android:layout_marginTop="10dp"
+                    android:text="Kota/Kabupaten"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" android:id="@+id/addKabupatenText"/>
+            <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:inputType="text"
+                    android:id="@+id/addKabupaten"
+                    android:ems="10"/>
+            <TextView
+                    android:layout_marginTop="10dp"
+                    android:text="Kecamatan"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" android:id="@+id/addKecamatanText"/>
+            <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:inputType="text"
+                    android:id="@+id/addKecamatan"
+                    android:ems="10"/>
+            <TextView
+                    android:layout_marginTop="10dp"
+                    android:text="Kelurahan"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" android:id="@+id/addKelurahanText"/>
+            <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:inputType="text"
+                    android:id="@+id/addKelurahan"
+                    android:ems="10"/>
+            <TextView
+                    android:layout_marginTop="10dp"
+                    android:text="Kode Pos"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" android:id="@+id/addKodePosText"/>
+            <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:inputType="number"
+                    android:id="@+id/addKodePos"
+                    android:ems="10"/>
+            <TextView
+                    android:layout_marginTop="10dp"
+                    android:text="Nomor Telepon Toko"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" android:id="@+id/addTokoPhoneText"/>
+            <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:inputType="number"
+                    android:id="@+id/addTokoPhone"
+                    android:ems="10"/>
+            <TextView
+                    android:layout_marginTop="10dp"
+                    android:text="Tipe Sparepart"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" android:id="@+id/addTipeSparePartText"/>
+
+            <Spinner
+                    android:id="@+id/addTipeSparePartSpinner"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentStart="true"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentBottom="true"
+                    android:textAlignment="gravity"
+                    style="@style/Widget.AppCompat.Spinner.Underlined"/>
+
+            <TextView
+                    android:layout_marginTop="10dp"
+                    android:text="StatusToko"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" android:id="@+id/addStatusTokoText"/>
+
+            <Spinner
+                    android:id="@+id/addStatusTokoSpinner"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentStart="true"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentBottom="true"
+                    android:textAlignment="gravity"
+                    style="@style/Widget.AppCompat.Spinner.Underlined"/>
+
+            <TextView
+                    android:layout_marginTop="10dp"
+                    android:text="Tahun Berdiri"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" android:id="@+id/addTahunBerdiriText"/>
+            <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/addTahunBerdiri"
+                    android:onClick="clickDataPicker"
+                    android:focusable="false"/>
+            <TextView
+                    android:layout_marginTop="10dp"
+                    android:text="Tahun Berakhir"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" android:id="@+id/addTahunBerakhirText"/>
+            <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:inputType="date"
+                    android:id="@+id/addTahunBerakhir"
+                    android:onClick="clickDataPicker"
+                    android:focusable="false"/>
+
+            <TextView
+                    android:layout_marginTop="10dp"
+                    android:text="StatusBmk"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" android:id="@+id/addStatusBmkText"/>
+
+            <Spinner
+                    android:id="@+id/addStatusBmkSpinner"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textAlignment="gravity"
+                    style="@style/Widget.AppCompat.Spinner.Underlined"/>
+            <TextView
+                    android:layout_marginTop="15dp"
+                    android:text="Nama PIC/Pengelola"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" android:id="@+id/addPicNameText"/>
+            <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:inputType="textPersonName"
+                    android:id="@+id/addPicName"
+                    android:ems="10"/>
+            <TextView
+                    android:layout_marginTop="15dp"
+                    android:text="Nama Hp PIC"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" android:id="@+id/addPicPhoneText"/>
+            <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:inputType="number"
+                    android:id="@+id/addPicPhone"
+                    android:ems="10"/>
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

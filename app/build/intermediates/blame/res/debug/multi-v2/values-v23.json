@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "/home/lanxerd/AndroidStudioProject/MyApplication3/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-v23/values-v23.xml",
+            "outputFile": "/home/sts/AndroidStudioProjects/MyApplication3/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-v23/values-v23.xml",
             "map": [
                 {
-                    "source": "/home/lanxerd/.gradle/caches/transforms-2/files-2.1/8fc17e332978c12525a4d1cd881f8402/res/values-v23/values-v23.xml",
+                    "source": "/home/sts/.gradle/caches/transforms-2/files-2.1/ba6c7d6b36de818fe85b84bbaba5d8f9/res/values-v23/values-v23.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,19,32,33,34,35,36",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4",

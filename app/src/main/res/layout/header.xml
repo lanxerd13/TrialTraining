@@ -7,7 +7,7 @@
         android:layout_height="wrap_content"
         android:layout_alignParentTop="true"
         android:background="@color/headerFooterColor"
-        xmlns:android="http://schemas.android.com/apk/res/android">
+        xmlns:android="http://schemas.android.com/apk/res/android" >
 
     <SearchView
             android:layout_width="221dp"
@@ -17,10 +17,20 @@
             android:layout_marginBottom="5dp"
             android:id="@+id/headerSearchBar"
             android:background="@color/white"
-            android:iconifiedByDefault="false"
-            android:queryHint="Cari di Part Station"
-            android:queryBackground="@null"
-            android:focusable="false"/>
+            android:iconifiedByDefault="true"
+            android:clickable="false"
+            />
+    <TextView
+            android:id="@+id/searchTest"
+            android:layout_width="176dp"
+            android:layout_height="35dp"
+            android:text="Cari di Part Station"
+            android:textColor="@color/grey"
+            android:layout_marginStart="44dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="5dp" android:layout_alignParentTop="true"
+            android:layout_alignStart="@+id/headerSearchBar"
+            android:gravity="left|center" android:onClick="onClickSearchView"/>
 
     <TextView
             android:id="@+id/menu1"
